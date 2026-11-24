@@ -1,0 +1,47 @@
+# Справочник грамматики испанского языка
+
+Справочник на русском языке для изучающих испанский: образование и употребление времён, наклонения, местоимения, артикли, предлоги, согласование, разговорные конструкции и различия между Испанией и Латинской Америкой. Правила сопровождаются таблицами, примерами и переводами.
+
+Исходный текст — [reference.md](reference.md). Его можно читать прямо на GitHub или собрать в PDF для печати и EPUB для электронной книги.
+
+## Готовые книги
+
+Скачайте **Spanish reference.pdf** и **Spanish reference.epub** в [последнем релизе](https://github.com/Forever-Young/spanish-reference/releases/latest). PDF включает кликабельное оглавление с номерами страниц; EPUB — навигационное оглавление. В книгах указано время сборки по Мадриду.
+
+## Сборка вручную
+
+Нужны Bash, Pandoc, Python 3.12 или новее и WeasyPrint. Для PDF установите шрифты Arial либо Liberation Sans / DejaVu Sans с поддержкой кириллицы.
+
+На macOS зависимости можно установить через Homebrew:
+
+```sh
+brew install pandoc weasyprint
+./build-pdf.sh
+./build-epub.sh
+python3 scripts/check-epub.py
+```
+
+На Ubuntu 24.04:
+
+```sh
+sudo apt-get update
+sudo apt-get install -y pandoc python3-venv libpango-1.0-0 libpangoft2-1.0-0 fonts-liberation fonts-dejavu-core
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+./build-pdf.sh
+./build-epub.sh
+python3 scripts/check-epub.py
+```
+
+Книги появятся в корне проекта. Оформление PDF задаёт `reference.css`, EPUB — `epub.css`; Lua-фильтры добавляют дату, оглавление PDF и корректные переносы строк EPUB. Скрипты также принимают путь к исходнику и выходному файлу первым и вторым аргументами.
+
+## Автоматическая сборка и релизы
+
+GitHub Actions собирает и проверяет книги при изменениях `main`, в pull request и при ручном запуске. Результаты доступны как артефакт `spanish-reference` на странице запуска.
+
+При отправке тега вида `v1.0.0` workflow создаёт GitHub Release и прикладывает обе книги. Сгенерированные файлы в Git не хранятся.
+
+## Исправления
+
+Предложения и исправления приветствуются через Issues и pull requests. Меняйте `reference.md` для правок текста и соответствующий CSS для оформления, затем проверяйте сборку.
