@@ -27,15 +27,40 @@ def read(name: str) -> str:
     return (ROOT / name).read_text(encoding="utf-8")
 
 
+OPENER = re.compile(r"\n(::: \{[^\n]*\})[ \t]*\n*$")
+
+
 def split_sections(text: str):
-    """Return (title line, [(number, heading, markdown)])."""
-    parts = re.split(r"(?m)^(?=## )", text)
-    title_block, sections = parts[0], []
-    for part in parts[1:]:
-        m = re.match(r"## (\d+)\.\s+(.*?)(?:\s+\{#[^}]*\})?\s*$", part.splitlines()[0])
+    """Return (title block, [(part, number, heading, markdown)]).
+
+    Parts are level-1 headings with the class ``part``; sections are level-2
+    headings. A ``::: {.class}`` line that opens a wrapper just before a
+    heading is moved into the chunk of that heading.
+    """
+    chunks = re.split(r"(?m)^(?=#{1,2} )", text)
+    for i in range(len(chunks) - 1):
+        m = OPENER.search(chunks[i])
+        if m:
+            chunks[i + 1] = m.group(1) + "\n\n" + chunks[i + 1]
+            chunks[i] = chunks[i][: m.start()] + "\n"
+    title_block, sections, part = chunks[0], [], ""
+    pending = ""
+    for chunk in chunks[1:]:
+        body = chunk.lstrip("\n")
+        pm = re.match(r"# (.*?)\s*\{\.part\}\s*$", body.splitlines()[0]) if body.startswith("# ") else None
+        if pm:
+            part = pm.group(1)
+            continue
+        if body.startswith("# "):  # the document title
+            continue
+        m = re.match(r"## (\d+)\.\s+(.*?)(?:\s+\{#[^}]*\})?\s*$", body.splitlines()[0])
         if not m:
-            raise SystemExit(f"Unnumbered section heading: {part.splitlines()[0]}")
-        sections.append((int(m.group(1)), m.group(2), part))
+            # wrapper opener carried in front of the heading
+            m2 = re.search(r"(?m)^## (\d+)\.\s+(.*?)(?:\s+\{#[^}]*\})?\s*$", body)
+            if not m2:
+                raise SystemExit(f"Unnumbered section heading: {body.splitlines()[0]}")
+            m = m2
+        sections.append((part, int(m.group(1)), m.group(2), body))
     return title_block, sections
 
 
@@ -64,11 +89,22 @@ def document(title: str, body: str, css_class: str = "") -> str:
 """
 
 
-def sidebar(sections, current: int | None) -> str:
-    items = []
-    for n, heading, _ in sections:
+def grouped_list(sections, current: int | None, cls: str) -> str:
+    """Parts as bold lines, their sections indented below."""
+    out, last = [], None
+    for part, n, heading, _ in sections:
+        if part != last:
+            if last is not None:
+                out.append("</ol></li>")
+            out.append(f'<li class="part"><span class="part-name">{html.escape(part)}</span><ol>')
+            last = part
         cur = ' aria-current="page"' if n == current else ""
-        items.append(f'<li><a href="{page_name(n)}"{cur}>{n}. {html.escape(heading)}</a></li>')
+        out.append(f'<li><a href="{page_name(n)}"{cur}>{n}. {html.escape(heading)}</a></li>')
+    out.append("</ol></li>")
+    return f'<ol class="toc-list {cls}">\n' + "\n".join(out) + "\n</ol>"
+
+
+def sidebar(sections, current: int | None) -> str:
     return f"""<nav id="sidebar" aria-label="Оглавление">
 <div class="side-top">
 <a href="index.html"{' aria-current="page"' if current is None else ''}>Начало</a>
@@ -76,9 +112,7 @@ def sidebar(sections, current: int | None) -> str:
 </div>
 <div id="search"></div>
 <div class="toc-scroll">
-<ol class="toc-list">
-{chr(10).join(items)}
-</ol>
+{grouped_list(sections, current, "side-list")}
 </div>
 </nav>"""
 
@@ -111,13 +145,13 @@ SIDE_JS = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
 
 
 def section_page(sections, idx: int, fragment: str) -> str:
-    n, heading, _ = sections[idx]
+    part, n, heading, _ = sections[idx]
     prev_link = next_link = '<span></span>'
     if idx > 0:
-        pn, ph, _ = sections[idx - 1]
+        _, pn, ph, _ = sections[idx - 1]
         prev_link = f'<a class="prev" href="{page_name(pn)}" rel="prev">← {html.escape(ph)}</a>'
     if idx < len(sections) - 1:
-        nn, nh, _ = sections[idx + 1]
+        _, nn, nh, _ = sections[idx + 1]
         next_link = f'<a class="next" href="{page_name(nn)}" rel="next">{html.escape(nh)} →</a>'
     body = f"""<button type="button" class="menu-btn" aria-label="Оглавление">☰ Разделы</button>
 <div class="scrim"></div>
@@ -125,7 +159,7 @@ def section_page(sections, idx: int, fragment: str) -> str:
 <div class="layout">
 {sidebar(sections, n)}
 <main data-pagefind-body>
-<p class="crumbs"><a href="index.html">{SHORT_TITLE}</a></p>
+<p class="crumbs"><a href="index.html">{SHORT_TITLE}</a> · {html.escape(part)}</p>
 {fragment}
 <nav class="pager" aria-label="Соседние разделы">{prev_link}{next_link}</nav>
 </main>
@@ -139,11 +173,11 @@ def main() -> None:
     _title_block, sections = split_sections(text)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    fragments = [pandoc(md) for _, _, md in sections]
+    fragments = [pandoc(md) for _, _, _, md in sections]
 
     # ids -> page, to retarget cross-section links
     id_page: dict[str, str] = {}
-    for (n, _, _), frag in zip(sections, fragments):
+    for (_, n, _, _), frag in zip(sections, fragments):
         for i in re.findall(r'\bid="([^"]+)"', frag):
             id_page.setdefault(i, page_name(n))
 
@@ -156,7 +190,7 @@ def main() -> None:
             return f'href="{page}#{target}"'
         return re.sub(r'href="#([^"]+)"', fix, frag)
 
-    for idx, ((n, _, _), frag) in enumerate(zip(sections, fragments)):
+    for idx, ((_, n, _, _), frag) in enumerate(zip(sections, fragments)):
         frag = retarget(frag, page_name(n))
         frag = frag.replace("<h2 ", '<h2 data-pagefind-meta="title" ', 1)
         (OUT / page_name(n)).write_text(section_page(sections, idx, frag), encoding="utf-8")
@@ -164,7 +198,7 @@ def main() -> None:
     # Spanish-only pages for a second search index (Spanish word forms)
     if ES_DIR:
         ES_DIR.mkdir(parents=True, exist_ok=True)
-        for (n, heading, _), frag in zip(sections, fragments):
+        for (_, n, heading, _), frag in zip(sections, fragments):
             parts = []
             for m in re.finditer(r"<(em|strong)>(.*?)</\1>", frag, re.S):
                 t = html.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
@@ -177,17 +211,13 @@ def main() -> None:
 
     # start page
     header = read("site-header.html").replace("@VERSION@", VERSION).replace("@DATE@", BUILT_DATE)
-    toc = "\n".join(
-        f'<li><a href="{page_name(n)}">{n}. {html.escape(h)}</a></li>' for n, h, _ in sections
-    )
+    toc = grouped_list(sections, None, "start-list")
     body = f"""{THEME}
 <div class="start">
 <h1>{SHORT_TITLE}<span class="subtitle">Грамматика и живая речь</span></h1>
 {header}
 <h2 class="start-toc">Разделы</h2>
-<ol class="toc-list start-list">
 {toc}
-</ol>
 </div>"""
     (OUT / "index.html").write_text(document(SITE_TITLE, body, "start-page"), encoding="utf-8")
 
