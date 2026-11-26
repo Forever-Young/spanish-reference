@@ -23,6 +23,6 @@ cp "$ROOT/site.css" "$OUTDIR/site.css"
 cp "$ROOT/Spanish reference.pdf" "$ROOT/Spanish reference.epub" "$OUTDIR/" 2>/dev/null || true
 pandoc "$ROOT/reference.md" --from=markdown --lua-filter="$ROOT/build-timestamp.lua" --to=html5 --standalone \
   --metadata pagetitle="Справочник грамматики испанского языка" --metadata lang=ru \
-  --toc --toc-depth=2 --css=site.css --include-before-body="$HEADER" \
+  --toc --toc-depth=2 --css=site.css --include-in-header="$ROOT/site-head.html" --include-before-body="$HEADER" \
   --output="$OUTDIR/index.html"
 echo "Created $OUTDIR/index.html"

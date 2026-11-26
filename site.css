@@ -1,7 +1,11 @@
-:root { color-scheme: light dark; --fg:#293747; --bg:#fff; --muted:#687786; --accent:#287eb5; --soft:#f3f7fb; --line:#cbd4de; --btn:#2ea44f; }
+:root { color-scheme: light; --fg:#293747; --bg:#fff; --muted:#687786; --accent:#287eb5; --soft:#f3f7fb; --line:#cbd4de; --btn:#2ea44f; }
 @media (prefers-color-scheme: dark) {
-  :root { --fg:#d6dde5; --bg:#16191d; --muted:#93a0ad; --accent:#5aa9dc; --soft:#1f252b; --line:#39434d; --btn:#2c9a4a; }
+  :root:not([data-theme="light"]) { color-scheme: dark; --fg:#d6dde5; --bg:#16191d; --muted:#93a0ad; --accent:#5aa9dc; --soft:#1f252b; --line:#39434d; --btn:#2c9a4a; }
 }
+:root[data-theme="dark"] { color-scheme: dark; --fg:#d6dde5; --bg:#16191d; --muted:#93a0ad; --accent:#5aa9dc; --soft:#1f252b; --line:#39434d; --btn:#2c9a4a; }
+.theme-toggle { position: fixed; top: .6rem; right: .6rem; z-index: 10; display: inline-flex; border: 1px solid var(--line); border-radius: .5rem; overflow: hidden; background: var(--bg); }
+.theme-toggle button { font: inherit; font-size: .85rem; color: var(--fg); background: transparent; border: 0; padding: .35rem .6rem; cursor: pointer; }
+.theme-toggle button[aria-pressed="true"] { background: var(--accent); color: #fff; }
 html { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; color: var(--fg); background: var(--bg); font-size: 17px; }
 body { max-width: 52rem; margin: 0 auto; padding: 1rem 16px 4rem; line-height: 1.55; }
 .downloads { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; justify-content: center; margin: 1rem 0 1.5rem; }
