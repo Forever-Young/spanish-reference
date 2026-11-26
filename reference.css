@@ -36,12 +36,14 @@ tbody tr:nth-child(even) { background: #fbfcfd; }
 .connectors-section { break-before: page; }
 .spoken-russian-section { break-before: page; }
 
+.ai-note { text-align: center; font-size: 8pt; color: #687786; margin: 0 0 3mm; }
+.ai-note p { margin: 0; }
 .build-timestamp { text-align: center; font-size: 7pt; color: #687786; margin: -1.5mm 0 3mm; break-before: avoid; break-after: avoid; }
 
 .table-of-contents { break-after: page; }
 .table-of-contents > p { font-size: 12pt; color: #287eb5; margin: 5mm 0 3mm; }
 .table-of-contents ul { list-style: none; padding: 0; margin: 0; }
-.table-of-contents li { margin: 0 0 .3mm; break-inside: avoid; }
+.table-of-contents li { margin: 0 0 .1mm; break-inside: avoid; }
 .table-of-contents > ul > li { margin-top: 1.6mm; }
 .table-of-contents > ul > li > p { color: #287eb5; margin: 0 0 1mm; }
 .table-of-contents ul ul { padding-left: 6mm; margin: 0; }

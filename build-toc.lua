@@ -28,10 +28,12 @@ function Pandoc(doc)
     pandoc.Para({pandoc.Strong({pandoc.Str('Содержание')})}),
     pandoc.BulletList(entries)
   }, pandoc.Attr('table-of-contents', {'table-of-contents'}))
-  for i, block in ipairs(doc.blocks) do
-    if block.t == 'Div' and block.classes:includes('build-timestamp') then
-      doc.blocks:insert(i + 1, toc)
-      return doc
+  for _, cls in ipairs({'ai-note', 'build-timestamp'}) do
+    for i, block in ipairs(doc.blocks) do
+      if block.t == 'Div' and block.classes:includes(cls) then
+        doc.blocks:insert(i + 1, toc)
+        return doc
+      end
     end
   end
   doc.blocks:insert(1, toc)

@@ -4,6 +4,8 @@
 
 Читать онлайн: **[spanish.f-y.name](https://spanish.f-y.name/)**
 
+Справочник подготовлен с помощью искусственного интеллекта и может содержать ошибки: носитель языка текст не проверял. Если нашли ошибку, сообщите о ней в [issues](https://github.com/Forever-Young/spanish-reference/issues).
+
 Справочник регулярно обновляется.<br>
 Текущая версия и дата последнего обновления:
 [![Версия](https://img.shields.io/github/v/release/Forever-Young/spanish-reference?label=версия)](https://github.com/Forever-Young/spanish-reference/releases/latest)
