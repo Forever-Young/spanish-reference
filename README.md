@@ -6,6 +6,12 @@
 
 ## Готовые книги
 
+<p align="center">
+  <a href="https://github.com/Forever-Young/spanish-reference/releases/latest/download/Spanish.reference.pdf"><img alt="Скачать PDF" src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-PDF-2ea44f?style=for-the-badge&labelColor=555" height="64"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Forever-Young/spanish-reference/releases/latest/download/Spanish.reference.epub"><img alt="Скачать EPUB" src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-EPUB-2ea44f?style=for-the-badge&labelColor=555" height="64"></a>
+</p>
+
 Скачайте **Spanish reference.pdf** и **Spanish reference.epub** в [последнем релизе](https://github.com/Forever-Young/spanish-reference/releases/latest). PDF включает кликабельное оглавление с номерами страниц; EPUB — навигационное оглавление. В книгах указано время сборки по Мадриду.
 
 ## Сборка вручную
