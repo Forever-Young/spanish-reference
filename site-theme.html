@@ -1,0 +1,22 @@
+<div class="theme-toggle" role="group" aria-label="Тема оформления">
+  <button type="button" data-theme-choice="auto">Авто</button>
+  <button type="button" data-theme-choice="light">Светлая</button>
+  <button type="button" data-theme-choice="dark">Тёмная</button>
+</div>
+<script>
+(function () {
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('[data-theme-choice]');
+  function current() { var t = root.getAttribute('data-theme'); return t === 'light' || t === 'dark' ? t : 'auto'; }
+  function mark() { var c = current(); buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.themeChoice === c)); }); }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var c = b.dataset.themeChoice;
+      if (c === 'auto') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', c);
+      try { if (c === 'auto') localStorage.removeItem('theme'); else localStorage.setItem('theme', c); } catch (e) {}
+      mark();
+    });
+  });
+  mark();
+})();
+</script>

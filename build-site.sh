@@ -13,16 +13,20 @@ export SPANISH_REFERENCE_BUILT_AT="$(TZ=Europe/Madrid date '+%d.%m.%Y %H:%M:%S %
 
 VERSION="$(git -C "$ROOT" describe --tags --always 2>/dev/null || echo dev)"
 BUILT_DATE="$(TZ=Europe/Madrid date '+%d.%m.%Y')"
-HEADER="$(mktemp)"
-trap 'rm -f "$HEADER"' EXIT
-sed -e "s/@VERSION@/$VERSION/" -e "s/@DATE@/$BUILT_DATE/" "$ROOT/site-header.html" > "$HEADER"
-
 rm -rf "$OUTDIR"
 mkdir -p "$OUTDIR"
 cp "$ROOT/site.css" "$OUTDIR/site.css"
 cp "$ROOT/Spanish reference.pdf" "$ROOT/Spanish reference.epub" "$OUTDIR/" 2>/dev/null || true
-pandoc "$ROOT/reference.md" --from=markdown --lua-filter="$ROOT/build-timestamp.lua" --to=html5 --standalone \
-  --metadata pagetitle="Справочник по испанскому языку: грамматика и живая речь" --metadata lang=ru \
-  --toc --toc-depth=2 --css=site.css --include-in-header="$ROOT/site-head.html" --include-before-body="$HEADER" \
-  --output="$OUTDIR/index.html"
-echo "Created $OUTDIR/index.html"
+cp "$ROOT/favicon.svg" "$ROOT/favicon-48.png" "$ROOT/apple-touch-icon.png" "$OUTDIR/"
+ES_DIR="$(mktemp -d)"
+trap 'rm -rf "$ES_DIR"' EXIT
+python3 "$ROOT/scripts/build-site.py" "$OUTDIR" "$VERSION" "$BUILT_DATE" "$ES_DIR"
+
+# Full-text search index (Pagefind). Optional: without it the search box is hidden.
+if command -v npx >/dev/null 2>&1; then
+  npx --yes pagefind@1.3.0 --site "$OUTDIR" --force-language ru \
+    && npx --yes pagefind@1.3.0 --site "$ES_DIR" --output-path "$OUTDIR/pagefind-es" --force-language es \
+    || echo "Pagefind failed; the site works without search." >&2
+else
+  echo "npx not found; skipping the search index." >&2
+fi
