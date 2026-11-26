@@ -22,3 +22,4 @@ thead { background: var(--accent); color: #fff; }
 th, td { border: 1px solid var(--line); padding: .35rem .6rem; text-align: left; vertical-align: top; }
 tbody tr:nth-child(even) { background: var(--soft); }
 header#title-block-header { display: none; }
+.alt { text-align: center; color: var(--muted); font-size: .9rem; margin: 0 0 1.5rem; }

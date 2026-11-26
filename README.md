@@ -2,7 +2,7 @@
 
 Справочник на русском языке для изучающих испанский: образование и употребление времён, наклонения, местоимения, артикли, предлоги, согласование, разговорные конструкции и различия между Испанией и Латинской Америкой. Правила сопровождаются таблицами, примерами и переводами.
 
-Читать онлайн: **https://forever-young.github.io/spanish-reference/**. Исходный текст — [reference.md](reference.md). Его можно читать прямо на GitHub или собрать в PDF для печати и EPUB для электронной книги.
+Исходный текст — [reference.md](reference.md). Его можно читать прямо на GitHub или собрать в PDF для печати и EPUB для электронной книги.
 
 ## Готовые книги
 
@@ -11,6 +11,8 @@
   &nbsp;&nbsp;
   <a href="https://github.com/Forever-Young/spanish-reference/releases/latest/download/Spanish.reference.epub"><img alt="Скачать EPUB" src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-EPUB-2ea44f?style=for-the-badge&labelColor=555" height="64"></a>
 </p>
+
+Читать онлайн (HTML-версия, PDF и EPUB на странице): **[forever-young.github.io/spanish-reference](https://forever-young.github.io/spanish-reference/)**.
 
 Скачайте **Spanish reference.pdf** и **Spanish reference.epub** в [последнем релизе](https://github.com/Forever-Young/spanish-reference/releases/latest). PDF включает кликабельное оглавление с номерами страниц; EPUB — навигационное оглавление. В книгах указано время сборки по Мадриду.
 
