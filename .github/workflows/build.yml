@@ -27,6 +27,13 @@ jobs:
           ./build-pdf.sh
           ./build-epub.sh
           python3 scripts/check-epub.py
+      - name: Build site
+        run: ./build-site.sh
+      - name: Upload site for GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
       - uses: actions/upload-artifact@v4
         with:
           name: spanish-reference
@@ -42,3 +49,17 @@ jobs:
         run: gh release create "$RELEASE_TAG" "Spanish reference.pdf" "Spanish reference.epub" --verify-tag --title "$RELEASE_TAG" --generate-notes
     permissions:
       contents: write
+
+  deploy-site:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
