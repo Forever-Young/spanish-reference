@@ -66,3 +66,7 @@ tbody tr:nth-child(even) { background: #fbfcfd; }
 
 .ordinal-section { font-size: 8.5pt; line-height: 1.15; }
 .ordinal-section table { font-size: 8.1pt; }
+
+.colloquial-section { break-before: page; }
+.colloquial-section table { break-inside: auto; }
+.warn { background: #fdeaea; border-left: 2.5pt solid #c0392b; padding: 1pt 5pt; margin: 2mm 0; break-inside: avoid; }

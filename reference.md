@@ -1,4 +1,4 @@
-# Справочник грамматики испанского языка
+# Справочник по испанскому языку: грамматика и живая речь
 
 ## 1. Изъявительное наклонение (Indicativo)
 
@@ -650,6 +650,20 @@
 | **ponerse a + infinitivo** | Начало действия, часто внезапное | *Se puso a llorar.* — Он / она вдруг заплакал(а). | *He started crying* / *burst into tears* |
 | **tener que + infinitivo** | Необходимость для конкретного лица | *Tengo que salir.* — Мне нужно уйти. | *I have to go* / *I've got to go* |
 | **hay que + infinitivo** | Общая, безличная необходимость | *Hay que esperar.* — Нужно подождать. | *One has to wait* / *We have to wait* |
+| **costar + infinitivo** | Что-то даётся с трудом: «мне трудно» | *Me cuesta levantarme temprano.* — Мне трудно вставать рано. *No me cuesta nada ayudarte.* — Мне ничего не стоит тебе помочь. | *It's hard for me to…* |
+| **tardar en + infinitivo** | Сколько времени уходит на действие | *Tardo veinte minutos en llegar a la oficina.* — Я добираюсь до офиса двадцать минут. | *It takes me twenty minutes to get to the office* |
+| **darle tiempo a alguien a + infinitivo** | Времени хватает, успеваешь | *Si salimos ya, nos da tiempo a cenar.* — Если выйдем сейчас, успеем поужинать. *No me dio tiempo a despedirme.* — Я не успел попрощаться. | *to have enough time to…*; *to manage to…* |
+| **dar igual / dar lo mismo** | Всё равно, не важно | *Me da lo mismo que vengas o no.* — Мне всё равно, придёшь ты или нет. | *I don't mind*; *it makes no difference* |
+| **darse prisa** | Торопиться | *Date prisa, que cierran a las ocho.* — Поторопись, в восемь закрывают. | *to hurry (up)* |
+| **estar a punto de + infinitivo** | Действие вот-вот произойдёт | *Estaba a punto de llamarte.* — Я как раз собирался тебе позвонить. | *to be about to…* |
+| **valer / merecer la pena + infinitivo** | Это того стоит | *Merece la pena esperar un poco.* — Стоит немного подождать. *No vale la pena discutir.* — Спорить не стоит. | *to be worth…* |
+| **tener pinta de + infinitivo / de que + indicativo** | «Похоже на то, что…» | *Esa tarta tiene muy buena pinta.* — Этот пирог выглядит очень аппетитно. *Tiene pinta de que va a nevar.* — Похоже, пойдёт снег. | *to look like…* |
+| **venir bien / mal (a alguien)** | Удобно / неудобно, подходит / не подходит | *El jueves me viene fatal.* — В четверг мне очень неудобно. *¿Te viene bien a las seis?* — Тебе удобно в шесть? | *to suit / not suit (someone)* |
+| **venir de perlas** | Очень кстати | *Esta lluvia nos viene de perlas.* — Этот дождь нам очень кстати. | *to come at just the right time* |
+| **pasarlo bien / mal** | Хорошо / плохо проводить время | *Lo pasamos genial en la fiesta.* — Мы отлично повеселились на вечеринке. *Lo pasé fatal esperando los resultados.* — Мне было очень тяжело, пока я ждал результатов. | *to have a great / terrible time* |
+| **llevarse bien / mal con alguien** | Ладить / не ладить | *Me llevo muy bien con mis vecinos.* — Я отлично лажу с соседями. | *to get along (well / badly) with…* |
+| **darse cuenta de + сущ. / de que + indicativo** | Осознавать, замечать | *Me he dado cuenta de que falta una página.* — Я заметил, что не хватает страницы. | *to realize*; *to notice* |
+| **resulta que…** | «Оказывается…», поворот в рассказе | *Resulta que Irene ya lo sabía.* — Оказывается, Ирене уже всё было известно. | *it turns out that…* |
 
 **Soler:** чаще встречается в Presente (*suelo, sueles, suele…*) и Imperfecto (*solía, solías…*): *Antes solía correr cada mañana* — «Раньше я обычно бегал каждое утро». Это привычка, а не одно разовое событие.
 
@@ -659,7 +673,57 @@
 
 **Llevar + gerundio:** говорим, сколько времени действие **уже длится**: *Llevamos media hora esperando* — «Мы ждём уже полчаса». *Estamos esperando* означает «мы сейчас ждём», но само по себе не сообщает, когда ожидание началось. В отрицательном варианте употребляется *llevar + время + sin + infinitivo*: *Llevo un mes sin verlo* — «Я не видел его уже месяц».
 
+
+
 **Разные этапы одного действия:** *Empecé a leer* — «Я начал читать»; *seguí leyendo* — «Я продолжал читать»; *dejé de leer* — «Я перестал читать»; *volví a leer* — «Я снова стал читать». После *empezar a, dejar de, volver a* стоит инфинитив; после *seguir* — герундий.
+
+
+**Варианты и замечания**
+
+| Конструкция | Вариант или замечание | Пример и перевод |
+|---|---|---|
+| **costar + inf.** | Меняется по модели *o → ue* (*cuesta, cuestan*); человек — косвенное дополнение, как с *gustar* | *A mi padre le cuesta mucho usar el ordenador.* — Моему отцу очень трудно пользоваться компьютером. |
+| **costar** («стоить») | Тот же глагол, другая конструкция | *Cuesta diez euros.* — Стоит десять евро. |
+| **tardar en** | Безличный вариант | *Se tarda media hora en llegar.* — Добираться полчаса. |
+| **tardar en** | Просьба не затягивать | *No tardes en contestar.* — Не тяни с ответом. |
+| **tirarse** [разг.] | Разговорный вариант *tardar* | *Me tiro una hora en llegar.* — Я трачу час на дорогу. |
+| **tardar / durar** | *Tardar* — время, нужное человеку; *durar* — длительность события | *Tardo una hora.* — Мне нужен час. *La película dura una hora.* — Фильм идёт час. |
+| **dar tiempo** | Чаще в отрицании и вопросе | *No me da tiempo a comer.* — Я не успеваю поесть. *¿Te dio tiempo a terminar?* — Ты успел закончить? |
+| **dar igual** | После *que* нужен Subjuntivo | *Me da igual que llueva.* — Мне всё равно, будет ли дождь. |
+| **dar lo mismo** (усиление) [разг.] | «Мне абсолютно всё равно» | *Me da lo mismo ocho que ochenta.* — Мне абсолютно без разницы. |
+| **darse prisa** | Формы адресата: *Date prisa* (tú), *Daos prisa* (vosotros), *Dese prisa* (usted) | *Daos prisa, que llegamos tarde.* — Поторопитесь, мы опаздываем. |
+| **espabilar** [разг.] | «Пошевеливаться» | *¡Espabila, que perdemos el tren!* — Пошевеливайся, мы опоздаем на поезд! |
+| **apurarse** | Латинская Америка | *¡Apúrate!* — Поторопись! |
+| **estar al caer** | «Вот-вот придёт, наступит» | *El autobús está al caer.* — Автобус вот-вот подойдёт. |
+| **casi + presente** | «Чуть не» | *Casi pierdo el tren.* — Я чуть не опоздал на поезд. |
+| **valer / merecer la pena** | Оба глагола равноправны; с другим подлежащим — *que + Subjuntivo* | *Vale la pena que lo veas.* — Тебе стоит это посмотреть. |
+| **tener buena / mala pinta** | О предмете, еде, ситуации | *Esto tiene muy buena pinta.* — Это выглядит очень аппетитно. |
+| **tener cara de / aspecto de / parecer** | Близкие по смыслу | *Tiene cara de cansado.* — У него усталый вид. |
+| **convenir** | Более формальный вариант *venir bien* | *Me conviene el jueves.* — Мне подходит четверг. |
+| **venir como anillo al dedo** | «Как раз то, что нужно» | *Este bolso me viene como anillo al dedo.* — Эта сумка мне как раз кстати. |
+| **venir que ni pintado** [разг.] | «Как нельзя кстати» | *Ese plan me viene que ni pintado.* — Этот план мне как нельзя кстати. |
+| **pasarlo en grande** | Замечательно провести время | *Lo pasamos en grande en la playa.* — Мы замечательно провели время на пляже. |
+| **pasarlo bomba** [разг., Испания] | Классно повеселиться | *Lo pasé bomba en tu cumpleaños.* — Я отлично повеселился на твоём дне рождения. |
+| **divertirse** | Нейтральный вариант | *Nos divertimos mucho.* — Мы здорово повеселились. |
+| **llevarse de maravilla** | Прекрасно ладить | *Nos llevamos de maravilla.* — Мы прекрасно ладим. |
+| **llevarse a matar** [разг.] | Быть «на ножах» | *Se llevan a matar.* — Они на ножах. |
+| **percatarse de** | Книжный вариант *darse cuenta* | *Me percaté de mi error.* — Я заметил свою ошибку. |
+| **caer en la cuenta** | Вдруг догадаться (см. раздел 13) | *De repente caí en la cuenta.* — Вдруг до меня дошло. |
+| **Pues resulta que…** | Вводит поворот в рассказе | *Pues resulta que vivían en la misma calle.* — Оказывается, они жили на одной улице. |
+| **Va y resulta que…** [разг.] | «И вот, оказывается…» | *Va y resulta que no tenía llave.* — И вот выясняется, что у него не было ключа. |
+| **Total, que…** [разг.] | «В итоге…» | *Total, que nos quedamos en casa.* — В итоге мы остались дома. |
+| **Resultó que… / Resultó ser…** | В Indefinido | *Resultó ser un error.* — Это оказалось ошибкой. |
+
+**Три «bien», которые легко перепутать:**
+
+| Конструкция | Смысл | Пример и перевод |
+|---|---|---|
+| **venir bien** | Удобно, подходит | *Me viene bien el jueves.* — Мне подходит четверг. |
+| **caer bien** (раздел 13) | Симпатичен | *Me cae bien tu hermana.* — Твоя сестра мне симпатична. |
+| **llevarse bien** | Ладить | *Me llevo bien con tu hermana.* — Мы с твоей сестрой ладим. |
+
+**Ловушка:** после *darse cuenta* обязательно нужно *de*: ❌ *Me di cuenta que…* — ✔ *Me di cuenta **de que**…*. Пропуск *de* — частая ошибка (*queísmo*).
+
 
 :::
 
@@ -1096,6 +1160,24 @@
 
 **Сначала установите центр разговора:** сюда / со мной → часто *venir, traer*; туда / к тебе → часто *ir, llevar*. Затем учитывайте приглашение, совместное движение и контекст.
 
+
+### Visitar / ir a ver / pasarse por: навестить место или человека
+
+Русские «посетить» и «навестить» по-испански различаются в зависимости от того, **что или кого** вы навещаете. **Visitar** обычно относится к местам, а не к людям.
+
+| Что навещаем | Глагол | Пример |
+|---|---|---|
+| Город, музей, страну | *visitar* | *Este verano quiero visitar Sevilla.* — Этим летом я хочу побывать в Севилье. |
+| Человека (формально, торжественно) | *hacer una visita a alguien* | *El domingo le haré una visita al director.* — В воскресенье я нанесу визит директору. |
+| Человека (обычная речь) | *ir a ver a alguien* / *venir a ver a alguien* | *Voy a ver a mi tía, que está enferma.* — Я схожу к тёте, она заболела. *Ven a vernos cuando puedas.* — Приезжай к нам, когда сможешь. |
+| Заглянуть по пути или ненадолго | *pasarse por* / *pasar por* | *Me paso por tu casa sobre las seis.* — Загляну к тебе около шести. *Paso por la farmacia y vuelvo.* — Зайду в аптеку и вернусь. |
+| Заглянуть, оказавшись поблизости | *acercarse a* / *dejarse caer por* [разг.] | *Déjate caer por casa cuando quieras.* — Заглядывай к нам, когда захочешь. |
+
+- *Hoy tenemos visita.* — Сегодня у нас гости. *Tener visita* — «принимать гостей»; *estar de visita* — «быть в гостях, проездом»: *Estoy de visita en Madrid.* — Я в Мадриде проездом.
+- *Visitar a un amigo* бывает, но звучит как «нанести визит» (почти книжно). Про друзей и родных обычно говорят *ir a ver* или *pasarse por*.
+- **Pasarse** — ещё и «перегнуть палку»: *Te has pasado con ese chiste.* — Ты перегнул с этой шуткой. Значение видно из конструкции: *pasarse por + место* — зайти, а *pasarse* без места — переборщить.
+
+
 ::: {.comparison}
 
 ### Quedar / quedarse: встреча, остаток, результат или пребывание
@@ -1121,8 +1203,29 @@
 - *La tienda queda cerca de aquí.* — Магазин находится неподалёку. / *Me quedo aquí.* — Я остаюсь здесь.
 - *El vestido me queda pequeño.* — Платье мне мало. / *Me quedé sin dinero.* — Я остался без денег.
 - *Quédate con el cambio.* — Оставь сдачу себе. / *Se quedó dormido en el sofá.* — Он уснул на диване.
+- *¿Nos vemos el viernes?* — Увидимся в пятницу? *Quedar* можно заменить на *verse con alguien*: *Me veo con Hugo a las seis.* — Я встречаюсь с Уго в шесть.
 
 **Не добавляйте se автоматически к русскому «осталось»:** *Quedan dos días* — осталось два дня; *Me quedo dos días* — я остаюсь на два дня.
+
+
+### Encontrarse / cruzarse / toparse: случайная встреча или договорённость?
+
+Русское «встретиться» покрывает два случая: встречу по договорённости и случайную. В испанском это разные глаголы.
+
+| Ситуация | Глагол | Пример |
+|---|---|---|
+| Встреча по договорённости | *quedar con alguien* / *verse con alguien* | *He quedado con Carmen a las cinco.* — Я договорился встретиться с Кармен в пять. *¿Nos vemos mañana?* — Увидимся завтра? |
+| Случайно встретить | *encontrarse con alguien* | *Esta mañana me encontré con mi profesora en el metro.* — Сегодня утром я случайно встретил свою учительницу в метро. |
+| Мимоходом столкнуться | *cruzarse con alguien* | *Me crucé con Álvaro en la escalera.* — Я столкнулся с Альваро на лестнице. |
+| Наткнуться, неожиданно увидеть | *toparse con alguien / algo* | *Me topé con mi ex en el supermercado.* — Я наткнулся на бывшую в супермаркете. |
+| Найти человека после поисков | *dar con alguien* | *Por fin di con ella.* — Наконец-то я её нашёл. |
+
+**Ловушка:** в Испании *Me voy a encontrar con mis amigos el sábado* звучит так, будто вы планируете **случайно** встретить друзей. Для плана говорят *He quedado con mis amigos el sábado* или *Voy a ver a mis amigos el sábado*. В Латинской Америке *encontrarse* для запланированной встречи слышно чаще: *Nos encontramos a las seis en la plaza* — «Встречаемся в шесть на площади».
+
+**Quedar con alguien** может значить и «договориться о встрече», и «пойти на свидание» (см. также «Quedar / quedarse» выше); смысл ясен из контекста: *Ayer quedé con Lucía* — «Вчера у меня была встреча (или свидание) с Лусией».
+
+**Encontrarse** — ещё «находиться» и «чувствовать себя»; это уже не про встречу: *Me encuentro mal* — «Мне нехорошо»; *La estación se encuentra al final de la calle* — «Вокзал находится в конце улицы».
+
 
 ### Dejar / salir: оставлять, покидать или выходить
 
@@ -1718,6 +1821,30 @@
 
 **Как с gustar:** желаемое — подлежащее, человек — *me / te / le / nos / os / les*. Поэтому *me apetece un café*, но *me apetecen unas vacaciones*. С инфинитивом — единственное число: *me apetece descansar*. Это желание в данный момент; *querer* тоже возможно, но чаще выражает прямое «хотеть».
 
+
+### «Мне не терпится», «жду не дождусь» → tener ganas / no ver la hora / estar deseando
+
+Выбор конструкции зависит от того, что идёт после неё: существительное, глагол с тем же подлежащим или целое предложение с другим подлежащим (тогда нужен Subjuntivo).
+
+| Конструкция | После неё | Пример и перевод |
+|---|---|---|
+| **tener ganas de + сущ. / infinitivo** | то, чего хочется | *Tengo ganas de unas vacaciones.* — Мне хочется в отпуск. *Tengo ganas de verte.* — Мне хочется тебя увидеть. |
+| **tener ganas de que + subjuntivo** | событие с другим подлежащим | *Tengo ganas de que llegue el verano.* — Мне хочется, чтобы наступило лето. |
+| **no ver la hora de + infinitivo** | то, что предстоит | *No veo la hora de salir de aquí.* — Не дождусь, когда отсюда уйду. |
+| **no ver la hora de que + subjuntivo** | событие с другим подлежащим | *No veo la hora de que termine el curso.* — Не дождусь, когда закончится курс. |
+| **estar deseando + infinitivo** | то, что предстоит | *Estoy deseando conocer a tus padres.* — Мне не терпится познакомиться с твоими родителями. |
+| **estar deseando que + subjuntivo** | событие с другим подлежащим | *Estoy deseando que me llames.* — Жду не дождусь твоего звонка. |
+| **morirse de ganas de + infinitivo** [разг.] | очень сильное желание | *Me muero de ganas de probarlo.* — Мне до смерти хочется это попробовать. |
+| **tener unas ganas locas de + infinitivo** [разг.] | безумное желание | *Tengo unas ganas locas de viajar.* — Мне безумно хочется путешествовать. |
+| **¡Qué ganas de + infinitivo!** | восклицание | *¡Qué ganas de verte!* — Как хочется тебя увидеть! *¡Qué ganas tengo de que llegue el viernes!* — Как я жду пятницу! |
+| **estar impaciente por + infinitivo** | нейтрально-книжное «изнывать от нетерпения» | *Está impaciente por conocer el resultado.* — Ему не терпится узнать результат. |
+| **contar los días / las horas para + сущ.** | образное «считать дни» | *Cuento los días para las vacaciones.* — Я считаю дни до отпуска. |
+
+**Ловушка 1.** Калька с английского *I can't wait* → *no puedo esperar* в Испании в этом смысле обычно не используется: фраза звучит как «я не могу ждать, мне нужно прямо сейчас». Берите конструкции из таблицы.
+
+**Ловушка 2.** *Estar excitado/a* чаще означает «быть сексуально возбуждённым». Для «я взволнован, мне интересно» берите *estar emocionado/a*, *estar ilusionado/a* («с радостным ожиданием») или конструкции выше.
+
+
 ### «Мне лень / неловко / страшно» → me da…
 
 | Конструкция | Пример |
@@ -1793,6 +1920,7 @@
 - *No me importa esperar.* — Я не против подождать / меня не затруднит ожидание.
 - *¿Te importa si abro la ventana?* — Ты не против, если я открою окно?
 - *No me importa.* — Меня это не беспокоит / мне это неважно — по контексту.
+- *Me da lo mismo.* — Мне без разницы. *Me da exactamente igual.* — Мне абсолютно всё равно. *Me es indiferente.* — Мне безразлично (формально).
 
 **Me da igual** может звучать равнодушно; для доброжелательного согласия часто яснее *Por mí, bien* — я за / меня устраивает. На *¿Te importa…?* ответ *No, adelante* означает «Нет, не против, давай».
 
@@ -1824,6 +1952,10 @@
 | **¡No me digas!** | *¿Se casan? ¡No me digas!* — Они женятся? Да ты что! Возможно искреннее удивление или ирония. |
 | **¡Venga ya!** | *¿Cien euros por eso? ¡Venga ya!* — Сто евро за это? Да ладно! Недоверие или возмущение; не нейтральное согласие. |
 | **¡Menos mal! / menos mal que…** | *¡Menos mal que viniste!* — Слава богу, ты пришёл! Облегчение; не означает буквальное сравнение «меньше зла». |
+
+
+Больше реакций, а также согласие, несогласие и «посмотрим» — в [разделе 38](#реакции-и-мнение).
+
 
 ### Мини-диалог: несколько моделей вместе
 
@@ -2875,4 +3007,655 @@
 
 Источники: [RAE: voseo](https://www.rae.es/dpd/voseo), [RAE: coger](https://www.rae.es/dpd/coger).
 
+:::
+
+::: {.colloquial-section}
+
+## 37. Живая речь по ситуациям {#живая-речь}
+
+Фразы ниже слышны на улице, на работе, в кафе и в сериалах. Если не указано иначе, они годятся для неформального общения и характерны для Испании; различия с Латинской Америкой — в [разделе 36](#латиноамериканский-испанский). Особенно разговорные выражения помечены [разг.]. Если выражение известно в нескольких вариантах, они даны рядом, с переводом.
+
+Подлежащее в примерах обычно опущено: в испанском окончание глагола и так показывает лицо (*voy al cine*, а не *yo voy al cine*).
+
+### Как дела?
+
+Вопросы, от нейтральных к разговорным:
+
+- *¿Cómo estás?* — Как дела? / Как ты?
+- *¿Qué tal?* / *¿Qué tal todo?* — Как оно? / Как всё?
+- *¿Cómo te va?* / *¿Cómo va todo?* — Как у тебя жизнь? / Как всё идёт?
+- *¿Qué hay?* / *¿Qué pasa?* / *¿Qué cuentas?* — Что нового? (*¿Qué pasa?* здесь просто приветствие, а не «что случилось?»)
+- *¿Cómo andas?* — Как ты там? (Испания и Латинская Америка)
+- *¿Qué es de tu vida?* — Что с тобой, как ты вообще? (когда давно не виделись)
+- *¡Cuánto tiempo!* / *¡Cuánto tiempo sin verte!* / *¡Tú por aquí!* — Сколько лет, сколько зим! / Давно не виделись! / Ты здесь?
+- *¿Y la familia, bien?* / *¿Qué tal la familia?* — А родные как?
+
+**Ответы.** Подробный ответ обычно не ждут:
+
+| Фраза | Перевод |
+|---|---|
+| *Muy bien, gracias. ¿Y tú?* | Очень хорошо, спасибо. А ты? |
+| *Bien, bien.* | Хорошо, хорошо. |
+| *Genial.* / *De maravilla.* | Отлично. / Прекрасно. |
+| *De lujo.* [разг.] | Шикарно. |
+| *No me puedo quejar.* | Не могу пожаловаться. |
+| *Ahí vamos.* / *Aquí estamos.* | Потихоньку. / Вот, живём. |
+| *Vamos tirando.* / *Tirando.* | Помаленьку, перебиваемся. |
+| *Como siempre.* / *Lo de siempre.* | Как всегда. |
+| *Sin novedad.* | Без новостей. |
+| *Poco a poco.* | Потихоньку. |
+| *Regular.* / *Así así.* | Так себе. |
+
+В *ahí vamos, aquí estamos, vamos tirando* глагол стоит во множественном числе, хотя речь о себе. Так в Испании говорят о делах и самочувствии «в целом».
+
+### Знакомство и представление
+
+Как представиться: в обычной речи достаточно *Soy Lucía* или просто *Lucía*. Фраза *Me llamo…* звучит нейтрально-формально, как «меня зовут…».
+
+| Ситуация | Фраза | Перевод |
+|---|---|---|
+| Спросить о занятиях | *¿A qué te dedicas?* / *¿En qué trabajas?* / *¿De qué trabajas?* | Чем занимаешься? / Где работаешь? / Кем работаешь? |
+| Представиться | *Soy Javier.* / *Javier.* | Я Хавьер. / Хавьер. |
+| Ответ на знакомство | *Encantado / Encantada.* / *Mucho gusto.* / *Un placer.* | Очень приятно. |
+| Ответ в ответ | *Igualmente.* / *Lo mismo digo.* / *El gusto es mío.* | Взаимно. / Мне тоже. / Это мне приятно. |
+| Представить другого | *Te presento a Elena.* / *Este es Rubén.* | Знакомься, это Елена. / Это Рубен. |
+| Представить нескольких | *Estos son mis compañeros, Sofía y Nacho.* | Это мои коллеги, София и Начо. |
+| Показалось, что знакомы | *Tu cara me suena.* / *Me suenas de algo.* / *¿Nos conocemos de algo?* | Твоё лицо знакомо. / Ты мне кого-то напоминаешь. / Мы не знакомы? |
+| Вспоминать, виделись ли | *¿Nos hemos visto antes?* / *¿No nos habíamos visto ya?* | Мы раньше не виделись? / Разве мы не встречались? |
+| Начать разговор | *romper el hielo* | растопить лёд: *Para romper el hielo, le pregunté de dónde era.* — Чтобы начать разговор, я спросил, откуда он. |
+
+### Обращение: tú или usted
+
+В Испании в обычной жизни говорят друг другу *tú*, даже незнакомым ровесникам и коллегам. *Usted* оставляют для очень формальных случаев: пожилые незнакомые люди, официальные учреждения, служебная субординация. В Латинской Америке *usted* встречается заметно чаще, в том числе между молодыми.
+
+- *tutear* / *tutearse* — обращаться на «ты»: *¿Te puedo tutear?* — Можно на «ты»? *¿Nos tuteamos?* — Давайте на «ты»? *Puedes tutearme.* — Можете говорить мне «ты».
+- *tratar de usted* — обращаться на «вы»: *Al director lo trato de usted.* — К директору я обращаюсь на «вы».
+
+### Новости: ponerse al día
+
+*Ponerse al día* — «обменяться новостями, наверстать».
+
+- *¿Te has enterado de lo de Nacho?* — Ты слышал про Начо? Варианты: *¿Sabes lo de Nacho?* — Ты знаешь, что с Начо? *¿Has oído lo de Nacho?* — Ты слышал про Начо?
+- *¿Cómo te va con tu nuevo jefe?* — Как у тебя с новым начальником? (*¿Cómo te va con…?* — про человека, дело или период жизни.)
+- *¿Qué tal fue el viaje?* — Как прошла поездка? (*¿Qué tal (fue)…?* — про прошедшее: *¿Qué tal la fiesta de ayer?* — Как вчерашняя вечеринка?)
+- *Se te ve cansado.* — Ты выглядишь усталым. Варианты: *Te veo cansado.* — Мне кажется, ты устал. *Tienes mala cara.* — У тебя плохой вид (резче).
+- *Quedamos para ponernos al día.* — Давай встретимся и обо всём поговорим.
+
+### Договориться о встрече
+
+В Испании на встречу принято приходить вовремя, но опоздание на 5–10 минут обычно не проблема.
+
+**Предложить:**
+
+- *¿Cuándo quedamos?* / *¿Cuándo nos vemos?* — Когда встретимся?
+- *¿Te apetece + inf. / сущ.?* — Хочешь…? *¿Te apetece ir al cine?* — Хочешь пойти в кино? *¿Te apetece un café?* — Хочешь кофе?
+- *¿Qué te parece si + indicativo?* — Как насчёт того, чтобы…? *¿Qué te parece si cenamos juntos?* — Как насчёт того, чтобы поужинать вместе?
+- *Podríamos + inf.* — Мы могли бы…: *Podríamos ir al mercado.* — Мы могли бы сходить на рынок.
+- *¿Y si…?* / *¿Por qué no…?* — А что, если…? / Почему бы не…?
+- *tomar(se) algo* — выпить или перекусить: *¿Nos tomamos algo?* — Выпьем чего-нибудь?
+- *¿Te apuntas?* — Ты с нами? Ответ: *Me apunto.* — Я с вами.
+- *¿Qué día te viene mejor?* / *¿Qué día te va bien?* — Какой день тебе удобнее?
+- *¿Tienes algún plan para el finde?* — Планы на выходные есть?
+
+**Принять:**
+
+- *Claro, me encantaría.* — Конечно, с удовольствием.
+- *Me parece bien.* — Мне подходит.
+- *Me va bien.* — Мне удобно.
+- *Por mí perfecto.* — Меня устраивает.
+- *Sin problema.* — Без проблем.
+- *Vale.* — Хорошо.
+- *Hecho.* / *Trato hecho.* — Договорились. / Сделка.
+- *Mejor a las seis, ¿vale?* — Лучше в шесть, хорошо? (Вариант: *Prefiero a las seis.* — Мне больше подходит шесть.)
+
+**Оставить открытым:**
+
+- *Te lo confirmo luego, ¿vale?* — Я потом подтвержу, хорошо?
+- *Te voy contando.* — Буду держать тебя в курсе.
+- *Vamos hablando.* — Будем на связи.
+- *Ya te digo algo.* — Я тебе потом скажу.
+- *Lo vemos sobre la marcha.* — Посмотрим по обстоятельствам.
+- *Bueno, tú dime algo cuando lo sepas.* — Ладно, ты дай знать, когда определишься. (Если сомневается собеседник, а предложили вы.) Другие ответы «посмотрим» — в [разделе 38](#реакции-и-мнение).
+
+**Отказать вежливо:**
+
+- *Ese día no puedo.* — В этот день не могу.
+- *Hoy me es imposible.* — Сегодня мне никак.
+- *Se me complica.* — У меня не получается.
+- *Ya tengo plan.* / *Ya he quedado.* — У меня уже планы. / Я уже договорился.
+- *Me habría encantado, pero…* — Мне бы очень хотелось, но… (Condicional compuesto, раздел 2.)
+- *Otra vez será.* / *Otro día, ¿vale?* / *Para otro día.* — В другой раз. / В другой день, хорошо? / Давай в другой день.
+
+**Когда вы уже в пути:**
+
+- *¡Ya voy!* — Уже иду!
+- *Estoy de camino.* — Я в пути.
+- *Estoy llegando.* — Почти на месте.
+- *Llego en cinco minutos.* — Буду через пять минут.
+- *No te muevas de ahí.* / *Quédate ahí, no te vayas.* — Оставайся там. / Стой там, не уходи.
+- *Avísame si cambia algo.* / *Dime algo si hay cambios.* — Сообщи, если что-то изменится. / Скажи, если будут изменения.
+
+### Вкусы и предпочтения
+
+Кроме *me gusta*:
+
+- *Me encanta + сущ. / inf.* — обожаю: *Me encanta el mar.* — Обожаю море. Варианты: *Me apasiona…* — Это моя страсть. *Me chifla…* [разг.] / *Me flipa…* [разг.] — Меня это очень увлекает.
+- *ser aficionado/a a + сущ.* — быть любителем: *Soy aficionado al ciclismo.* — Я люблю велоспорт. Варианты: *ser muy de + сущ.* — *Soy muy de montaña.* — Я больше люблю горы. *ser fan de…* — *Soy fan de esa serie.* — Я фанат этого сериала.
+- *no hacerle gracia a alguien* — не радовать, не нравиться: *No me hace gracia levantarme tan pronto.* — Мне совсем не нравится вставать так рано.
+- *no llamarle la atención a alguien* — не привлекать: *Los coches no me llaman la atención.* — Машины меня не привлекают.
+- *no decirle nada a alguien* — оставлять равнодушным: *Esa película no me dice nada.* — Этот фильм меня не трогает.
+- *… no es lo mío* — это не моё: *Cocinar no es lo mío.* — Готовка — не моё. Вариант: *no ser muy de…* — *No soy muy de fiestas.* — Я не любитель вечеринок.
+- *no ser fan de + сущ. / inf.* — не фанат: *No soy fan de madrugar.* — Я не любитель вставать рано.
+
+**Осторожно:** *hacer gracia* без отрицания значит «смешить»: *Me hace gracia que lo diga.* — Меня смешит, что он так говорит.
+
+### Возраст
+
+Возраст по-испански выражают глаголом **tener**, а не *ser* или *estar*: *Tengo cuarenta y cinco años* (слово *años* опускают: *Tengo 45*).
+
+- **cumplir** — исполняться: *El mes que viene cumplo treinta.* — В следующем месяце мне исполняется тридцать. Вопрос именинника: *¿Cuántos años cumples?* — Сколько тебе исполняется?
+- **echar (años)** — прикидывать на вид: *¿Cuántos años me echas? — Te echo unos cuarenta.* — Сколько мне дашь? — Лет сорок.
+- **aparentar** — выглядеть на: *No aparentas la edad que tienes.* — Ты не выглядишь на свой возраст. Варианты: *Pareces más joven.* — Ты выглядишь моложе. *No pareces tener tantos años.* — Не скажешь, что тебе столько лет.
+- **Об эпохе жизни:** *quinceañero/a* — подросток, *veinteañero/a, treintañero/a* — «двадцатилетний, тридцатилетний», *cuarentón/cuarentona, cincuentón/cincuentona, sesentón/sesentona, setentón/setentona* — человек «за сорок, за пятьдесят…» (слова на *-ón* разговорные и могут звучать слегка иронично). Это и существительные, и прилагательные: *Es una treintañera muy activa.* — Она очень активная тридцатилетняя.
+- Другие способы: *rondar los cuarenta* — быть «около сорока», *pasar de los cuarenta* — быть «за сорок», *tener cuarenta años cumplidos* — «исполнилось сорок», *estar en la treintena* — «быть в четвёртом десятке», *entrado/a en años* — «в годах».
+
+### Отношения
+
+| Выражение | Значение | Пример |
+|---|---|---|
+| **ligar** | флиртовать, знакомиться с целью романа | *Fuimos a la discoteca a ver si ligábamos.* — Мы пошли в клуб, вдруг с кем-то познакомимся. В Латинской Америке чаще говорят *coquetear* («флиртовать») и *levantar a alguien* (в Мексике, Колумбии: «подцепить»). |
+| **tener una cita con alguien** | идти на свидание | *Hoy tengo una cita con Irene.* — Сегодня у меня свидание с Ирене. |
+| **salir con alguien / estar saliendo con** | встречаться | *Ahora no estoy saliendo con nadie.* — Сейчас я ни с кем не встречаюсь. |
+| **discutir / pelearse** | ссориться | *Discuten por cualquier tontería.* — Они ссорятся из-за любой глупости. |
+| **dejarlo / romper con alguien / cortar** [разг.] | расстаться | *Creo que deberíamos dejarlo.* — Думаю, нам стоит расстаться. *He cortado con Dani.* — Я порвала с Дани. |
+| **dejar a alguien** | бросить кого-то | *Me dejó por otro.* — Он / она бросил(а) меня ради другого(й). |
+| **dejar plantado/a a alguien / dar plantón** | не прийти на встречу | *Me dejó plantada en la primera cita.* — Он не пришёл на наше первое свидание. |
+| **media naranja** | вторая половинка | *Todavía no ha encontrado a su media naranja.* — Он пока не нашёл свою половинку. |
+| **amigo/a con derecho a roce** | друг с привилегиями | *Es mi amigo con derecho a roce.* — Он мой друг с привилегиями. |
+| **un rollo / un lío de una noche** | связь на одну ночь | *Fue un rollo de una noche.* — Это была связь на одну ночь. |
+
+**Rollo** многозначно: *tener un rollo con alguien* — «быть в лёгкой связи», а *¡Qué rollo!* — «какая скука» ([раздел 40](#сленг)).
+
+### День: сон, быт, режим
+
+| Выражение | Значение | Пример |
+|---|---|---|
+| **madrugar** | вставать рано | *Los lunes madrugo mucho.* — По понедельникам я встаю очень рано. |
+| **trasnochar** | ложиться поздно | *El sábado trasnochamos viendo una serie.* — В субботу мы засиделись допоздна за сериалом. |
+| **acostarse a las tantas** | лечь очень поздно | *Anoche me acosté a las tantas.* — Вчера я лёг бог знает во сколько. |
+| **dormirse / quedarse dormido/a** | заснуть, проспать | *Me quedé dormido y no oí el despertador.* — Я проспал и не услышал будильник. *Me dormí en el cine.* — Я заснул в кино. |
+| **quedarse frito/a** [разг.] | вырубиться | *Se quedó frito en el sofá.* — Он вырубился на диване. |
+| **pegársele las sábanas a alguien** | проспать, «прилипли простыни» | *Se me pegaron las sábanas y llegué tarde.* — Я проспал и опоздал. |
+| **echarse una cabezadita / una siesta** | вздремнуть | *Después de comer me echo una cabezadita.* — После обеда я вздремну. |
+| **estar muerto/a de sueño** | валиться с ног от усталости | *A las nueve ya estoy muerto de sueño.* — В девять я уже засыпаю на ходу. |
+| **arreglarse / prepararse** | собираться, приводить себя в порядок | *¿Tardas mucho en arreglarte?* — Ты долго собираешься? *Me preparo en diez minutos.* — Я соберусь за десять минут. |
+| **picotear (algo)** | перекусить, поклевать | *Pica algo antes de salir.* — Перекуси чего-нибудь перед выходом. |
+| **dar una vuelta / un paseo** | прогуляться | *¿Damos una vuelta por el barrio?* — Прогуляемся по району? |
+| **hacer la compra** | закупить продукты | *Hago la compra los sábados por la mañana.* — Я закупаю продукты по субботам утром. В Латинской Америке чаще *hacer las compras*, а в Мексике — *hacer el súper*. |
+
+### Работа
+
+| Выражение | Значение | Пример |
+|---|---|---|
+| **el curro / currar** [разг.] | работа / работать | *Me voy al curro.* — Иду на работу. *Currar los fines de semana no me gusta.* — Работать по выходным мне не нравится. Только в Испании; в Мексике и Перу — *chambear* (*la chamba*), в Аргентине — *laburar* (*el laburo*). |
+| **tirarse una hora en llegar** [разг.] | тратить час на дорогу | *Me tiro hora y media en ir y volver.* — Я трачу полтора часа туда и обратно. |
+| **estar hasta arriba (de trabajo)** | по уши в делах | *Esta semana estoy hasta arriba.* — На этой неделе я по уши в работе. Варианты: *estar hasta el cuello* — быть по горло в делах; *no dar abasto* — не справляться. |
+| **no parar** | быть без передышки | *Últimamente no paro.* — В последнее время у меня ни минуты. |
+| **un día ajetreado** | суматошный, напряжённый день | *Hoy ha sido un día ajetreado.* — Сегодня был суматошный день. Вариант: *un día de locos* — день сумасшедший. |
+| **librar** | иметь выходной | *Libro los martes.* — Мой выходной — вторник. |
+| **un día libre** | выходной день | *Mañana me tomo un día libre.* — Завтра я беру выходной. |
+| **hacer puente** | сделать длинные выходные (мост между праздником и выходными) | *El jueves es festivo y el viernes hacemos puente.* — В четверг праздник, а пятницу мы берём выходной. |
+| **estar de baja** | быть на больничном | *Está de baja desde el lunes.* — Он на больничном с понедельника. |
+| **estar de vacaciones** | быть в отпуске | *Mi jefa está de vacaciones hasta el día 20.* — Моя начальница в отпуске до двадцатого. |
+| **ser festivo / fiesta** | быть праздничным днём | *El lunes es festivo en toda España.* — В понедельник по всей Испании праздник. |
+
+### Техника
+
+Многие слова пришли из английского. Выражения, которые стоит знать:
+
+- *estar enganchado/a al móvil* — «зависеть от телефона». Вариант: *estar pegado al móvil* — «не выпускать телефон из рук».
+- *mirar el correo* — проверить почту: *Miro el correo cada dos por tres.* — Я проверяю почту поминутно. Вариант: *revisar el correo* — просмотреть почту.
+- *mandar un wasap / un guasap* — отправить сообщение в WhatsApp: *Mándame un wasap cuando llegues.* — Напиши мне в WhatsApp, когда доберёшься. Название приложения по RAE — *WhatsApp*; в речи и на письме встречаются *wasap*, *guasap* и *whatsapp*.
+- *no tener cobertura* — не ловит сеть: *Aquí no hay cobertura.* — Здесь нет сети. В Латинской Америке: *no hay señal*.
+- *quedarse sin batería* — разрядиться: *Me he quedado sin batería.* — У меня сел телефон. Вариант: *quedarse sin datos* — закончился мобильный трафик.
+- *poner a cargar* — поставить на зарядку: *Pon el móvil a cargar.* — Поставь телефон на зарядку.
+
+### Покупки и деньги
+
+| Выражение | Значение | Пример |
+|---|---|---|
+| **pagar con tarjeta / en efectivo (en metálico)** | оплатить картой / наличными | *¿Paga con tarjeta o en efectivo?* — Картой или наличными? |
+| **sacar dinero del cajero** | снять деньги в банкомате | *Voy a sacar dinero antes de ir al mercado.* — Сниму деньги перед рынком. |
+| **no llevar suelto** | не иметь мелочи | *No llevo suelto, ¿puedo pagar con un billete de veinte?* — У меня нет мелочи, можно двадцатью евро? |
+| **pagar a plazos** | в рассрочку | *Compramos la lavadora a plazos.* — Мы купили стиральную машину в рассрочку. В Латинской Америке: *en cuotas*. |
+| **pagar a tocateja** [разг.] | сразу и полностью, наличными | *Pagó la moto a tocateja.* — Он заплатил за мотоцикл сразу всю сумму. |
+| **las rebajas** | сезонные распродажи (в Испании главным образом в январе и июле) | *Lo compré en las rebajas.* — Я купил это на распродаже. В Латинской Америке: *las ofertas*, *la liquidación*. |
+| **una ganga / un chollo** | выгодная покупка | *Esas botas son un chollo.* — Эти ботинки — выгодная покупка. *Chollo* — Испания; *ganga* — везде. |
+| **devolver / cambiar / descambiar** | вернуть или обменять | *Si no te vale, lo cambias.* — Если не подойдёт, обменяешь. |
+| **el tique (de compra)** | чек | *Guarda el tique por si acaso.* — Сохрани чек на всякий случай. |
+| **probarse algo** | примерять | *¿Me puedo probar estos pantalones?* — Можно примерить эти брюки? |
+| **llevarse algo** | взять, купить | *Me llevo las dos.* — Беру обе. |
+
+### В кафе
+
+В Испании *un café* без уточнений — это *café solo*: чёрный эспрессо в маленькой чашке. Другое нужно называть: *un café con leche* — кофе с молоком, *un cortado* — эспрессо с небольшим количеством молока, *un café con hielo* — кофе со льдом (лёд и стакан подают отдельно). Слово *latte* в туристических местах поймут, но испанцы так не заказывают.
+
+- *¿Qué te pongo?* / *¿Qué va a ser?* — Что вам принести? (бармен) Варианты: *¿Qué os pongo?* — Что вам принести? (компании), *¿Qué desean?* — Что желаете? (формально).
+- *¿Me pones un cortado?* — Мне, пожалуйста, кортадо. Варианты: *Ponme un cortado.* — Дайте мне кортадо (прямо, но нормально в баре), *Quería un cortado.* — Мне бы кортадо (мягче), *¿Me das un café?* — Дашь мне кофе?
+- *¿Me cobras, por favor?* — Можно рассчитаться? Варианты: *¿Me cobras ya?* — Можно уже оплатить? *La cuenta, por favor.* — Счёт, пожалуйста.
+- *¿Qué te debo?* / *¿Cuánto es?* — Сколько с меня? (бармену) / Сколько с меня? Вариант: *¿Cuánto te debo?* — Сколько я тебе должен?
+- *Aquí tienes.* — Вот, пожалуйста. Варианты: *Toma.* — Держи. *Aquí tiene.* — Вот, пожалуйста (формально).
+- *Quédate con el cambio.* — Сдачи не надо. В Латинской Америке: *Quédese con el vuelto.*
+
+### Лотерея
+
+В Испании лотерея — часть культуры, особенно рождественская.
+
+- *echar la lotería* / *jugar a la lotería* / *comprar lotería* — играть, покупать билеты: *Todos los años compro lotería de Navidad.* — Каждый год я покупаю рождественскую лотерею. *Echar la lotería* — в основном Испания.
+- *tocar (un premio / la lotería)* — выпасть, достаться: *Le tocó el Gordo.* — Ему выпал главный приз. Выигрыш — **подлежащее**, а человек — косвенное дополнение: *Me han tocado mil euros.* — Мне достались тысяча евро.
+- *un décimo* — билет (десятая часть номера); *una participación* — «доля» в билете, которую раздают друзьям и коллегам; *el Gordo* — главный приз рождественской лотереи (*la lotería de Navidad*); *un cupón de la ONCE* — лотерейный купон организации ONCE; *el reintegro* — возврат стоимости билета: *Me ha tocado el reintegro.* — Мне вернули ставку.
+- *Si me toca el Gordo, me compro una casa.* — Если мне выпадет Gordo, я куплю дом. (*Si + presente*, [раздел 32](#условные-предложения).)
+
+### Вежливые формулы
+
+- **Ответ на «спасибо»:**
+  - *De nada.* — Не за что.
+  - *No hay de qué.* — Не за что (чуть формальнее).
+  - *¡Por favor, no es nada!* — Да что вы, это пустяки!
+- **Принять гостя:**
+  - *Ponte cómodo/a.* — Устраивайся поудобнее.
+  - *Siéntete como en casa.* — Чувствуй себя как дома.
+  - *Estás en tu casa.* — Ты как у себя дома.
+- **Пожелать удачи:**
+  - *¡Suerte!* / *Mucha suerte.* — Удачи! / Большой удачи!
+  - *Que te vaya bien.* — Пусть у тебя всё пройдёт хорошо.
+  - *Crucemos los dedos.* / *Cruzo los dedos.* — Скрестим пальцы. / Скрещу пальцы.
+  - *Toco madera.* — Постучу по дереву.
+- **Поздравить:**
+  - *¡Felicidades!* — Поздравляю! (день рождения, праздник, успех)
+  - *¡Enhorabuena!* — Поздравляю! (с достижением, новостью)
+- **Поддержать:**
+  - *¡Ánimo!* / *¡Ánimo, que tú puedes!* — Не падай духом! / Держись, у тебя получится!
+  - *¡Fuerza!* — Сил тебе!
+  - *Todo saldrá bien.* / *Ya verás como todo sale bien.* — Всё получится. / Вот увидишь, всё будет хорошо.
+- **Пожелать здоровья:**
+  - *¡Que te mejores!* / *Mejórate.* — Выздоравливай!
+  - *¡Recupérate pronto!* — Скорее поправляйся!
+- **Чихнул (Испания):** *¡Jesús!* — Будь здоров! Варианты: *¡Salud!* — Будь здоров! (в Испании тоже говорят, но реже), *¡Que te cures!* — Пусть пройдёт! (шутливо-доброжелательно).
+- **Тост:** *¡Salud!* — За здоровье! В Латинской Америке *¡Salud!* — основной ответ и на чихание, и тост. Разговорный тост: *¡Chinchín!* [разг.] — Чин-чин!
+
+### Рассказать что-то: pasar, oír, tratar, darse cuenta
+
+- *pasar (a alguien)* — случаться: *¿Sabes qué me ha pasado hoy?* — Знаешь, что со мной сегодня было? *¿Qué te pasa?* — Что с тобой? *Suele pasar.* — Так бывает. *Pase lo que pase…* — Что бы ни случилось… *Lo que pasa es que…* — Дело в том, что…
+- *oír hablar de algo* — слышать о чём-то: *Hemos oído hablar de ese restaurante.* — Мы слышали об этом ресторане.
+- *oír que…* — слышать, что…: *He oído que cierran el museo.* — Я слышал, что музей закрывают. Варианты: *dicen que…* — говорят, что…; *me han dicho que…* — мне сказали, что…; *he oído por ahí que…* — я где-то слышал, что…
+- *tratar de / ir de* — быть о чём: *¿De qué trata esta novela?* / *¿De qué va?* — О чём этот роман? (*De qué va* — разговорное; о человеке: *¿De qué va ese tío?* — Что он за тип?)
+- *Me suena.* / *No me suena de nada.* — Что-то знакомое. / Совсем не знакомо.
+- *darse cuenta de que…* — осознать (подробно — раздел 7): *Me di cuenta de que había perdido las llaves.* — Я понял, что потерял ключи.
+- *resulta que…* — оказывается (подробно — раздел 7): *Resulta que ella no lo sabía.* — Оказывается, она не знала.
+:::
+
+::: {.colloquial-section}
+
+## 38. Реакции, согласие и мнение {#реакции-и-мнение}
+
+В живой речи важнее всего интонация: *¡Claro!* может значить «конечно», а может — иронично «ну да, конечно». Особо разговорные выражения помечены [разг.]. Реакции из раздела 19 (*¡Anda!, ¡No me digas!, ¡Venga ya!, ¡Menos mal!*) сюда не повторяются.
+
+### Выразить мнение
+
+- *Yo creo que…* — Я думаю, что… / *Me parece que…* — Мне кажется, что… После них — индикатив: *Creo que tiene razón.* — Думаю, он прав. В отрицании — субхунтив: *No creo que tenga razón.* — Не думаю, что он прав. / *No me parece que sea buena idea.* — Мне не кажется, что это хорошая идея. (подробнее — [раздел 24](#выбор-наклонения))
+- *En mi opinión…* — По моему мнению… / *Desde mi punto de vista…* — С моей точки зрения… / *A mi modo de ver…* — На мой взгляд…
+- *Para mí…* — По-моему…: *Para mí, es lo mejor.* — По-моему, это лучшее.
+- *Yo diría que…* — Я бы сказал, что… (мягкое высказывание)
+- *Personalmente, …* — Лично я…
+- *La verdad es que…* — По правде говоря… / *Si te soy sincero, …* — Если честно…
+- *Bueno, pienso que…* — Ну, я думаю, что…
+
+### Согласиться
+
+- *Estoy de acuerdo.* — Я согласен. / *Tienes razón.* — Ты прав. / *Totalmente.* — Полностью согласен.
+- *Así es.* — Так и есть. / *Eso es.* — Именно. / *Exacto.* / *Exactamente.* — Точно.
+- *Claro.* — Конечно. / *Claro que sí.* — Конечно да. / *Por supuesto.* — Разумеется. / *Desde luego.* — Безусловно. / *Por descontado.* — Само собой.
+- *Sin duda.* — Без сомнения. / *Eso, seguro.* — Это точно. / *Eso sin duda.* — Это бесспорно.
+- *Ya te digo.* [разг.] — Ещё бы! / *Y tanto.* [разг.] — Ещё как! / *Ya lo creo.* — Ещё бы.
+- *Supongo que sí.* — Наверное, да. / *Creo que sí.* — Думаю, да. / *Puede ser.* — Может быть. / *Será eso.* — Наверное, так и есть.
+
+### Не согласиться
+
+- *No estoy de acuerdo.* — Я не согласен. / *No lo veo así.* — Я так не считаю.
+- *No lo veo tan claro.* — Для меня это не так очевидно. / *No estoy tan seguro/a.* — Я не так уверен. / *No sé yo.* — Не знаю, не знаю.
+- *No necesariamente.* — Не обязательно. / *Depende.* — Зависит. / *No tanto.* — Не настолько.
+- *Todo lo contrario.* / *Al contrario.* — Как раз наоборот. / *Nada de eso.* — Ничего подобного.
+- *Para nada.* — Совсем нет. / *En absoluto.* — Вовсе нет. / *¡Claro que no!* — Конечно, нет!
+- *¡Qué va!* [разг.] — Да нет же! / *¡De eso nada!* [разг.] — Ничего подобного!
+- *¡Ni hablar!* [разг.] — Ни за что! / *¡Ni loco/a!* [разг.] — Ни за какие деньги!
+- *Ni de coña.* [разг., грубо] — Ни за что на свете.
+- *¡Qué dices!* [разг.] — Что ты говоришь! / *¡Anda ya!* [разг.] — Да ладно! (Недоверие.)
+
+*¡Qué dices!* звучит и как возражение, и как искреннее удивление; по интонации понятно, что именно.
+
+### «Посмотрим»: отложить решение
+
+Когда не хочется решать сразу или сказать «нет» напрямую, используют выражения с глаголом *ver*:
+
+| Фраза | Перевод | Смысл и пример |
+|---|---|---|
+| **Ya veremos.** | Посмотрим. | Часто с оттенком «вряд ли»: *¿Vendrás a mi boda? — Ya veremos.* — Придёшь на мою свадьбу? — Посмотрим. |
+| **Ya se verá.** / **Habrá que ver.** | Время покажет. / Надо будет посмотреть. | *¿Saldrá bien? — Ya se verá.* — Получится? — Время покажет. |
+| **Vamos a ver.** | Ну-ка, посмотрим. | Собраться с мыслями перед ответом: *Vamos a ver, déjame pensar.* — Так, дай подумать. |
+| **A ver.** | Ну-ка. / Так. | Просит внимания или вводит мысль: *A ver, cuéntame.* — Ну-ка, расскажи. *A ver, ¿qué has hecho?* — Так, что ты натворил? (Второй пример звучит строго.) |
+| **A ver si + indicativo** | Посмотрим, получится ли… | Надежда или лёгкий упрёк: *A ver si hay suerte.* — Посмотрим, повезёт ли. *A ver si me llamas más.* — Хоть бы ты звонил(а) мне почаще. |
+| **Eso está por ver.** / **Eso habría que verlo.** | Это ещё неизвестно. / Это ещё надо проверить. | Сомнение: *Que gane él está por ver.* — Выиграет ли он, ещё неизвестно. |
+| **Lo vemos mañana.** | Решим завтра. | Отложить обсуждение: *Eso lo vemos mañana.* — Это обсудим завтра. |
+
+### Положительные реакции
+
+- *¡Qué guay!* [разг.] — Здорово! / *¡Qué chulo!* [разг.] — Круто! / *¡Qué guapo/a!* — Какой красивый! Про вещь, место, идею. *Guay* и *chulo* — разговорные, особенно у молодёжи.
+- *¡Es una pasada!* [разг.] — Это потрясающе! (про впечатления, вещи, поступки)
+- *¡Me encanta!* — Обожаю!
+- *¡Genial!* — Отлично! / *¡Estupendo!* — Замечательно! / *¡Fenomenal!* — Великолепно!
+- *¡Qué bien!* — Как хорошо!
+- *¡Es increíble!* — Это невероятно! / *¡Es alucinante!* [разг.] — Это потрясающе! / *¡Es brutal!* [разг.] — Это просто бомба!
+- *De lujo.* [разг.] — Шикарно.
+- *No está mal.* — Неплохо. (Обычно сдержанная похвала.)
+- *¡Qué envidia!* — Как я тебе завидую!
+
+В Латинской Америке в этом ряду чаще слышны *¡Qué chévere!* (Колумбия, Венесуэла, Карибы), *¡Qué padre!* (Мексика), *¡Qué bacán!* (Чили, Перу, Эквадор) — «круто» ([раздел 36](#латиноамериканский-испанский)).
+
+### Короткие реплики в разговоре
+
+- *¡Anda ya!* / *¡Venga ya!* — Да ладно! (недоверие или возмущение)
+- *¿En serio?* — Всерьёз? / *¿De verdad?* — Правда?
+- *¡Madre mía!* — Ой-ой! / Ну и ну!
+- *¡Qué fuerte!* — Вот это да! / Невероятно! (о хорошем и о плохом)
+- *¡No puede ser!* — Не может быть!
+- *¡No me digas!* — Не говори! / Да ты что!
+- *¡Fíjate!* — Представь себе! / Надо же!
+- *¡Ojo!* — Осторожно! / Обрати внимание!
+- *¡Venga!* — Давай! / Ну же! / Пока! (в конце разговора) / Пошли!
+- *¡Vamos!* / *¡Vamos allá!* — Пошли! / Вперёд!
+- *¡Hay que ver!* — Просто поразительно!
+- *¡Pues vaya!* — Ну и ну! / Вот тебе раз! (разочарование)
+- *¡Menudo lío!* [разг.] — Ну и бардак! / *¡Qué rollo!* [разг.] — Какая скука!
+
+### Когда что-то пошло не так
+
+Эти фразы помогают сохранить спокойствие и снять напряжение:
+
+- *No pasa nada.* — Ничего страшного. / *No importa.* — Неважно. / *No es nada.* — Это пустяки.
+- *No te preocupes.* — Не переживай. / *Tranquilo/a.* — Спокойно. / *No te agobies.* — Не накручивай себя.
+- *No hay problema.* — Нет проблем. / *Sin problema.* — Без проблем.
+- *Estas cosas pasan.* / *Cosas que pasan.* — Такое бывает.
+- *No es para tanto.* — Не так уж это серьёзно.
+- *¿Qué se le va a hacer?* — Что поделаешь?
+- *Mañana será otro día.* — Завтра будет новый день.
+- *Me da igual.* — Мне всё равно. Звучит холодно: если вы просто уступаете, скажите *Por mí, bien.* — Меня устраивает. Или: *Lo que tú quieras.* — Как ты хочешь.
+
+Образное выражение: *ahogarse en un vaso de agua* — паниковать из-за пустяка, «утонуть в стакане воды». *No te ahogues en un vaso de agua.* — Не делай из мухи слона.
+:::
+
+::: {.colloquial-section}
+
+## 39. Место, время и погода: разговорные формулы {#место-время-погода}
+
+Готовые формулы для расстояния, времени и погоды. Правила *hace / desde hace / durante* — в разделе 11, положение предметов — в разделе 12.
+
+### Где это находится
+
+**Спросить:**
+
+- *¿Por dónde queda la estación?* — Где здесь вокзал? Варианты: *¿Dónde queda…?* — Где находится…? *¿Sabes cómo llegar a…?* — Ты знаешь, как добраться до…?
+- *¿Está lejos de aquí?* — Это далеко отсюда?
+
+**Сказать, сколько идти:**
+
+- *Está a cinco minutos de aquí.* — До него пять минут отсюда. (*a + время / расстояние + de aquí*)
+- *Está a dos kilómetros.* — Это в двух километрах.
+- *Está a cinco minutos andando / en bus / en coche.* — Это пять минут пешком / на автобусе / на машине.
+
+**Рядом:**
+
+- *Está aquí al lado.* / *Por aquí cerca.* — Это совсем рядом.
+- *Está a la vuelta de la esquina.* — Это за углом.
+- *Está a tiro de piedra.* — Это в двух шагах («на расстоянии броска камня»).
+
+**Далеко:**
+
+- *Está en el quinto pino.* [разг.] — Это у чёрта на куличках. Варианты: *en el quinto infierno* [разг.] — у чёрта на рогах, *en la Cochinchina* [разг.] — в тридевятом царстве, *donde Cristo dio las tres voces* [разг.] — там, где Христос трижды позвал (очень далеко).
+- *Está en mitad de ninguna parte.* — Это посреди нигде.
+- *Está en el fin del mundo.* — Это на краю света.
+
+**Для меня близко или далеко:**
+
+- *Me pilla cerca / lejos.* — Мне близко / далеко (по пути или нет): *El gimnasio me pilla un poco lejos.* — До спортзала мне довольно далеко.
+- *Me pilla de camino.* / *Me pilla de paso.* — Мне по пути. *No me pilla de paso.* — Мне не по пути.
+- *Me acerco a la farmacia.* — Я схожу в аптеку (недалеко). Вариант: *Me paso por la farmacia.* — Я зайду в аптеку. *Voy un momento a la farmacia.* — Я на минуту схожу в аптеку.
+
+### «Ahora» и другие слова про время
+
+Русское «сейчас» легко обманывает: **ahora** в Испании может значить «в ближайшее время», а не «прямо в эту секунду». Если человек говорит *Lo hago ahora*, подождать придётся немного дольше, чем кажется.
+
+| Слово / формула | Значение | Пример |
+|---|---|---|
+| **ahora mismo** | прямо сейчас | *Lo hago ahora mismo.* — Сделаю прямо сейчас. |
+| **ahora** | сейчас, скоро (в ближайшее время) | *Ahora te lo traigo.* — Сейчас принесу. |
+| **ahora luego** [разг.] | чуть позже | *Ahora luego te llamo.* — Чуть позже позвоню. |
+| **enseguida** | сразу, быстро | *Voy enseguida.* — Сейчас иду. |
+| **por ahora / de momento / por el momento** | пока, на данный момент | *De momento, todo va bien.* — Пока всё идёт хорошо. |
+| **a partir de ahora / de ahora en adelante / de aquí en adelante** | с этого момента | *De ahora en adelante, cocino yo.* — Отныне готовлю я. |
+| **últimamente** | в последнее время | *Últimamente estás muy susceptible.* — В последнее время ты очень обидчив. |
+| **dentro de / en + срок** | через… | *Te llamo dentro de una hora.* — Позвоню через час. *Salgo en diez minutos.* — Выхожу через десять минут. |
+| **un rato / un ratillo** | некоторое время, немного | *Espera un ratillo.* — Подожди немного. *Voy a tardar un rato.* — Мне ещё надо время. |
+| **más adelante / más tarde** | позже | *Eso lo hablamos más adelante.* — Это обсудим позже. |
+| **cuanto antes / lo antes posible** | как можно скорее | *Contesta lo antes posible.* — Ответь как можно скорее. |
+| **de la noche a la mañana / de un día para otro** | внезапно, за одну ночь | *Se hizo famoso de la noche a la mañana.* — Он прославился в одночасье. |
+| **en un momento dado** | в какой-то момент | *En un momento dado, dejó de contestar.* — В какой-то момент он перестал отвечать. |
+| **al final** | в итоге | *Al final no fuimos.* — В итоге мы не пошли. |
+| **en aquel entonces / por aquel entonces** | тогда, в то время | *Por aquel entonces vivíamos en otra ciudad.* — Тогда мы жили в другом городе. |
+| **algún día** | когда-нибудь | *Algún día volveré.* — Когда-нибудь я вернусь. |
+| **un día de estos** | на днях (в будущем) | *Un día de estos te invito a cenar.* — На днях приглашу тебя на ужин. |
+| **el otro día** | на днях (в прошлом) | *El otro día vi a tu hermano.* — На днях видел твоего брата. |
+| **… que viene / … pasado/a** | следующий / прошлый | *el mes que viene* — в следующем месяце, *el año pasado* — в прошлом году, *la semana pasada* — на прошлой неделе |
+| **hace + срок** | … назад | *Llegamos hace una semana.* — Мы приехали неделю назад. |
+| **al día siguiente / a la mañana siguiente** | на следующий день / утром следующего дня | *Al día siguiente me lo dijo.* — На следующий день он мне это сказал. |
+| **anoche / anteanoche / anteayer** | вчера вечером / позавчера вечером / позавчера | *Anoche dormí poco.* — Прошлой ночью я мало спал. |
+
+**Ловушка:** *un día de estos* — про будущее, *el otro día* — про прошлое; оба переводятся как «на днях», но не взаимозаменяемы.
+
+**Ahorita (Латинская Америка).** В Мексике, Центральной Америке, Колумбии, Венесуэле и на Карибах *ahorita* — «сейчас, сию минуту», но значение зависит от страны и интонации:
+
+- «прямо сейчас»: *Ahorita voy.* — Сейчас иду.
+- «в ближайшее время»: *Ahorita te lo mando.* — Скоро тебе отправлю.
+- «когда-нибудь потом» (особенно в Мексике, это может быть и «позже, а то и вовсе нет»): *Ahorita lo hago.* — Сделаю как-нибудь.
+- Уменьшительное *ahoritita* — «буквально сию минуту» или «когда-нибудь потом», по интонации.
+
+Если важно знать срок, переспросите: *¿Ahorita ahorita o más tarde?* — Прямо сейчас или попозже? В Испании *ahorita* не говорят.
+
+### Погода
+
+Слово **tiempo** — это и «время», и «погода». Про погоду спрашивают *¿Qué tiempo hace?* — Какая погода? Про время — *¿Qué hora es?* — Который час? (не *tiempo*). *¿Cuánto tiempo hace?* — «Как давно?», а не про погоду.
+
+**Нейтральная погода:**
+
+- *Hace buen / mal tiempo.* — Погода хорошая / плохая. *Hace buen / mal día.* — Хороший / плохой день.
+- *Hace calor / frío / sol / viento / fresco.* — Жарко / холодно / солнечно / ветрено / прохладно.
+- *Hoy hace fresquito.* — Сегодня прохладненько.
+- *Hace bochorno.* — Душно и жарко (перед грозой).
+- *¡Qué calor hace!* — Какая жара!
+- *Está nublado.* — Облачно. / *Está despejado.* — Ясно.
+
+**Дождь:**
+
+- *Llueve.* / *Está lloviendo.* — Идёт дождь.
+- *Chispea.* / *Está lloviznando.* — Моросит.
+- *Ha caído un buen chaparrón.* — Прошёл сильный ливень. (*chaparrón* — короткий сильный дождь)
+- *Está cayendo una buena.* — Льёт как следует.
+- *Llueve a cántaros.* / *Llueve a mares.* — Льёт как из ведра.
+- *Han dicho que va a llover.* / *Dicen que va a llover.* — Сказали, что будет дождь. / Говорят, будет дождь.
+- *Han dado lluvia para hoy.* — Передавали дождь на сегодня.
+
+**Разговорное:**
+
+- *Hace un día de perros.* [разг.] — Дрянная погода.
+- *Hace un frío que pela.* [разг.] — Дубак.
+- *Hace un calor de morirse.* — Жара смертная. / *Hace un sol de justicia.* — Палящее солнце.
+- *Vaya día, ¿eh?* — Ну и денёк!
+:::
+
+::: {.colloquial-section}
+
+## 40. Сленг и сокращения {#сленг}
+
+Это язык друзей, семьи и сериалов. В письме, на работе и с незнакомыми такие слова обычно не используют. Если не указано иначе, выражения характерны для Испании; в Латинской Америке у каждой страны свой сленг ([раздел 36](#латиноамериканский-испанский)).
+
+### Сленг
+
+| Выражение | Значение | Пример | Варианты и где употребляется |
+|---|---|---|---|
+| **estar chupado/a** | проще простого | *El examen estaba chupado.* — Экзамен был проще простого. | *estar tirado* — проще пареной репы; *ser pan comido* — проще простого (везде) |
+| **estar a tope** | битком, на пределе | *El metro iba a tope.* — Метро было забито. | *hasta los topes* — под завязку; *a reventar* — до отказа |
+| **estar petado/a** | набито битком | *El bar está petado de gente.* — Бар забит людьми. | *lleno hasta la bandera* — полным-полно (везде) |
+| **estar molido/a** | вымотан | *Estoy molido después del viaje.* — Я без сил после поездки. | *hecho polvo* — разбитый; *hecho puré* — измочаленный; *reventado* — вымотанный (везде) |
+| **flipar** | обалдеть | *Me flipó el final.* — Меня поразил финал. | *flipar en colores* — обалдеть полностью; *Me flipa* — мне очень нравится |
+| **molar** | нравиться, «быть классным» | *Esa idea mola.* — Идея классная. | *mola mazo* — очень нравится (молодёжный сленг, Испания) |
+| **ser un crack** | мастер своего дела | *Eres un crack con los idiomas.* — Ты мастер по языкам. | *ser un máquina* — быть «машиной»; *ser un fenómeno* — быть феноменом; *ser una figura* — быть звездой |
+| **majo/a** | славный, симпатичный | *Los vecinos son muy majos.* — Соседи очень приятные. | *simpático* — приятный; *buena gente* — хороший человек (везде) |
+| **estar chalado/a** | чокнутый | *Está chalada si cree eso.* — Она сумасшедшая, если верит в это. | *pirado* — чокнутый; *chiflado* — тронутый; *estar como una cabra / como una regadera* — быть «не в себе» |
+| **pasar de algo** | плевать на, не интересоваться | *Paso de ir a esa fiesta.* — Мне неохота идти на эту вечеринку. | *pasar de todo* — на всё плевать |
+| **estar de cachondeo** | шутить, дурачиться | *¿Estás de cachondeo?* — Ты прикалываешься? | *estar de broma* — шутить (нейтрально); *estar de guasa* — подшучивать; *estar de coña* — прикалываться (грубее) |
+| **la movida** | заварушка, неразбериха | *¡Menuda movida con los papeles!* — Ну и неразбериха с документами! | *lío* — путаница; *follón* — бардак (Испания) |
+| **cutre** | убогий, дешёвый | *El hotel era un poco cutre.* — Отель был довольно убогий. | *cutrez* — убожество; *de mala muerte* — захудалый |
+| **chungo/a** | паршивый, опасный | *El barrio es un poco chungo.* — Район не очень благополучный. *Estoy chungo.* — Я плохо себя чувствую. | *malo* — плохой; *feo* — неприятный |
+| **estar chapado/a** | закрыто (о магазине, заведении) | *Ya está todo chapado.* — Всё уже закрыто. | *chapar* — закрывать: *Chapamos a las diez.* — Мы закрываемся в десять. Только Испания; в Латинской Америке для «закрыто» говорят *cerrado*. *Chapar* — ещё «зубрить» (Испания): *Tengo que chapar para el examen.* — Мне нужно зубрить к экзамену. |
+| **una chapuza** | халтура, кое-как сделанное | *Esa reforma fue una chapuza.* — Этот ремонт — халтура. | *chapucero* — халтурщик; *hacer chapuzas* — подрабатывать мелким ремонтом |
+| **la pasta** | деньги | *Eso cuesta una pasta.* — Это стоит кучу денег. | В Латинской Америке: *la plata* (Аргентина, Колумбия, Чили), *la lana* (Мексика), *la guita* (Аргентина), *los billetes* — деньги |
+| **tío / tía** | чувак, мужик, подруга; «человек» | *Ese tío está como una regadera.* — Этот мужик совсем чокнутый. *Tío, ¿vienes?* — Чувак, идёшь? | В Испании это разговорное слово, которое звучит дружески среди молодёжи и резковато от незнакомого человека; *tío / tía* — ещё «дядя / тётя». В Латинской Америке так не говорят; вместо этого: *güey* (Мексика), *che* (Аргентина, Уругвай), *parce* (Колумбия), *pana* (Венесуэла, Эквадор). Это обращения между друзьями. |
+
+
+### Слова с большим набором выражений
+
+Эти слова встречаются в разговоре особенно часто и дают много устойчивых выражений. Они разобраны отдельно.
+
+#### Rollo
+
+| Выражение | Значение | Пример и перевод |
+|---|---|---|
+| **ser un rollo** | быть скучным, нудным | *La reunión fue un rollo.* — Собрание было скучным. |
+| **¡Qué rollo!** | какая скука; как некстати | *¡Qué rollo tener que madrugar!* — Какая скука вставать рано! |
+| **soltar un rollo** [разг.] | читать длинную нотацию | *Me soltó un rollo sobre la salud.* — Он прочитал мне длинную нотацию о здоровье. |
+| **buen rollo** | хорошая атмосфера, дружелюбие | *Hay muy buen rollo en el equipo.* — В команде очень хорошая атмосфера. |
+| **mal rollo** | напряжённая атмосфера | *Había mal rollo entre ellos.* — Между ними была напряжённость. |
+| **estar en el rollo de…** [разг.] | быть «в теме» | *Ahora está en el rollo del yoga.* — Сейчас он увлёкся йогой. |
+| **tener un rollo con alguien** [разг.] | быть в лёгкой романтической связи | *Tiene un rollo con su vecina.* — У него лёгкая связь с соседкой. |
+
+#### Leche
+
+| Выражение | Значение | Пример и перевод |
+|---|---|---|
+| **ser la leche** | выдающийся (похвала) или «это уж слишком» (по интонации) | *Eres la leche.* — Ты бесподобен. *¡Esto es la leche!* — Это уж слишком! |
+| **ser la leche en verso** [разг.] | усиление «ну это вообще» | *Este tío es la leche en verso.* — Этот тип просто нечто. |
+| **tener mala leche** | быть злым, мстительным | *Lo hizo con mala leche.* — Он сделал это со зла. |
+| **estar de mala leche** | быть не в духе | *Hoy estoy de mala leche.* — Сегодня я не в духе. |
+| **tener mala uva** | вариант *tener mala leche* | *Tiene muy mala uva.* — Он очень злой. |
+| **a toda leche** [разг.] | на полной скорости | *Salió a toda leche.* — Он выскочил на полной скорости. |
+| **darse una leche** [разг.] | сильно удариться | *Se dio una leche con la moto.* — Он сильно разбился на мотоцикле. |
+
+Все выражения со словом *leche* характерны для Испании.
+
+#### Pillar
+
+| Выражение | Значение | Пример и перевод |
+|---|---|---|
+| **pillar un resfriado** | подхватить простуду | *Pilló un resfriado en la playa.* — Он простудился на пляже. |
+| **no pillar algo** | не понимать | *No pillo el chiste.* — Я не понимаю шутку. |
+| **pillar a alguien (haciendo algo)** | поймать, застать | *Lo pillaron robando.* — Его поймали на краже. |
+| **pillar por sorpresa** | застать врасплох | *La noticia me pilló por sorpresa.* — Новость застала меня врасплох. |
+| **pillar un atasco** | попасть в пробку | *Pillamos un atasco enorme.* — Мы попали в огромную пробку. |
+| **pillar cobertura** | поймать сеть | *Aquí no pillo cobertura.* — Здесь я не ловлю сеть. |
+| **¡Me pilló la lluvia!** | застал дождь | *Me pilló la lluvia sin paraguas.* — Меня застал дождь без зонта. |
+| **pillar cerca / lejos** | быть близко / далеко (для меня) | *El gimnasio me pilla lejos.* — До спортзала мне далеко (раздел 39). |
+
+#### Liar, lío
+
+| Выражение | Значение | Пример и перевод |
+|---|---|---|
+| **estar liado/a** | быть занятым | *Estoy liado con unos papeles.* — Я зарылся в бумаги. |
+| **liarse con alguien** | завести роман | *Se ha liado con su compañera.* — У него роман с коллегой. |
+| **liarla** [разг.] | натворить дел | *¡La has liado!* — Ты наворотил дел! |
+| **un lío** | путаница, неразбериха | *¡Menudo lío!* — Ну и неразбериха! |
+| **hacerse un lío** | запутаться | *Me hice un lío con los horarios.* — Я запутался в расписании. |
+| **armar un lío** | устроить заварушку | *Armaron un lío en la fiesta.* — Они устроили заварушку на вечеринке. |
+| **liar un cigarro** | свернуть сигарету | *Se lió un cigarro.* — Он свернул себе сигарету. |
+
+
+### Сокращения
+
+Сокращения характерны для неформальной речи; в официальной используйте полные слова. Они обычно сохраняют первые слоги и добавляют типичное окончание *-i, -e, -o, -a*.
+
+| Сокращение | Полное слово | Перевод | Пример |
+|---|---|---|---|
+| **la peli** | película | фильм | *Vamos a ver una peli esta noche.* — Давай посмотрим сегодня фильм. |
+| **el finde** | fin de semana | выходные | *¿Qué hacéis este finde?* — Что делаете на выходных? |
+| **el bocata** | bocadillo | бутерброд | *Me comí un bocata de tortilla.* — Я съел бутерброд с тортильей. |
+| **la cerve** | cerveza | пиво | *Nos tomamos unas cerves.* — Мы выпили по пиву. |
+| **el boli** | bolígrafo | ручка | *¿Me dejas un boli?* — Одолжишь ручку? |
+| **la uni** | universidad | университет | *Hoy tengo clase en la uni.* — Сегодня у меня пары в университете. |
+| **el cole** | colegio | школа | *Mis hijos van al cole en autobús.* — Мои дети ездят в школу на автобусе. |
+| **el insti** | instituto | старшие классы школы | *Estudio en el insti.* — Я учусь в старших классах. |
+| **el profe / la profe** | profesor/a | преподаватель | *La profe de mates es muy buena.* — Преподавательница математики очень хорошая. |
+| **las mates** | matemáticas | математика | *No se me dan bien las mates.* — Математика мне не даётся. |
+| **el cumple** | cumpleaños | день рождения | *¡Feliz cumple!* — С днём рождения! |
+| **las vacas** | vacaciones | отпуск, каникулы | *Me voy de vacas en agosto.* — Я уйду в отпуск в августе. |
+| **porfa / porfi** | por favor | пожалуйста | *¿Me ayudas, porfa?* — Поможешь, пожалуйста? |
+| **la mani** | manifestación | демонстрация | *Mañana hay mani en el centro.* — Завтра в центре демонстрация. |
+| **el compi** | compañero | коллега, товарищ | *Mi compi me lo dijo.* — Мне сказал мой коллега. |
+| **la depre** | depresión | хандра | *Tengo la depre del lunes.* — У меня понедельничная хандра. |
+:::
+
+::: {.colloquial-section}
+
+## 41. Ругательства и их смягчённые варианты {#ругательства}
+
+::: {.warn}
+
+**⚠ Осторожно.** Ругательства нужны, чтобы понимать сериалы и разговоры; пользоваться ими иностранцу почти всегда рискованно. Сила слова зависит от интонации, компании и страны: между друзьями оно безобидно, при начальнике или пожилом человеке — грубость. В таблице три уровня: **мягко** — можно среди друзей и в семье, **средне** — только между своими, **грубо** — оскорбление или очень резкая реакция. Русские эквиваленты, где они грубые, замаскированы звёздочками: одна звёздочка на каждую скрытую букву.
+
+:::
+
+### Основные слова
+
+| Слово | Уровень | Что выражает | Пример и перевод |
+|---|---|---|---|
+| **hostia** (*¡Hostia!*, *¡Hostias!*) | средне | удивление, злость, восторг | *¡Hostia, qué susto!* — Б\*\*\*ь, как же ты меня напугал! *Esto es la hostia.* — Это просто ох\*\*нно. |
+| **coño** (*¡Coño!*) | средне | усиление, удивление, злость | *¡Coño, qué bien lo has hecho!* — Ох\*\*нно у тебя получилось! *¿Qué coño haces?* — Какого х\*\* ты делаешь? |
+| **joder** (*¡Joder!*) | средне | досада, злость, удивление | *¡Joder, qué calor!* — Б\*\*\*ь, ну и жара! |
+| **jolín / jo** | мягко | смягчённое *joder* | *¡Jolín, qué tarde es!* — Блин, как поздно! *¡Jo, otra vez me he olvidado las llaves!* — Блин, снова забыл ключи! |
+| **joderse** | средне | «ну и ладно, терпи», досада | *Pues te jodes y lo haces.* — Ну, х\*\* тебе, делай. *Hay que joderse.* — Вот же б\*\*\*ство. |
+| **cojones / huevos** | средне | возмущение, «наглость»; также «смелость» | *¡Tiene cojones la cosa!* — Ну это уже наглость! *Hay que tener cojones para decirle eso.* — Нужны яйца, чтобы сказать ему такое. |
+| **cagarse (en…)** | средне | выплеск раздражения | *¡Me cago en la leche!* — Да чтоб его! *¡Me cago en todo!* — Да чтоб всё провалилось! |
+| **estar que te cagas** | средне | «невероятно вкусно, шикарно» | *La tarta está que te cagas.* — Торт ох\*\*нный. |
+| **mierda** | средне | досада; также «дрянь» | *¡Mierda, me he dejado el móvil!* — Дерьмо, забыл телефон! |
+| **mandar a alguien a la mierda** | грубо | послать | *Lo mandé a la mierda.* — Я послал его на х\*\*. |
+| **(vete) a tomar por culo** | грубо | очень резкое «пошёл вон»; про место — «чёрт знает где» | *El hospital está a tomar por culo.* — Больница у х\*\* на куличках. |
+| **una putada** | средне | гадость, подлость; также досадная неприятность | *¡Vaya putada!* — Вот же свинство! *Me ha hecho una putada.* — Он мне подстроил пакость. |
+| **un coñazo** | средне | жуткая скука, нудный человек или дело | *Este manual es un coñazo.* — Эта инструкция — жуткая нудятина. Смягчённо: *un tostón*. |
+| **gilipollas** | грубо | оскорбление «дурак, идиот» | *Ese tío es un gilipollas.* — Этот тип — полный м\*\*ак. |
+| **cabrón** | грубо / шутя | оскорбление; в шутку между друзьями | *¡Qué cabrón, me has asustado!* — Ну ты и с\*\*а, напугал! (в шутку) *Es un cabrón.* — Он негодяй. (всерьёз) |
+
+### Где что употребляется
+
+- *Hostia*, *jolín*, *joder*, *gilipollas*, *putada*, *coñazo* — в основном Испания.
+- *Coño* — Испания, Куба, Венесуэла, Пуэрто-Рико (на Карибах используется чаще, часто как усилитель).
+- *Mierda*, *cojones*, *cabrón* — понятны везде; *cabrón* в Мексике нередко звучит шутливо-дружески.
+- В Латинской Америке часто слышны *carajo* (универсальное «чёрт возьми», «ё-моё»), *pendejo* (Мексика, Колумбия — «придурок»), *boludo* (Аргентина, Уругвай — «дурак», а между друзьями — «чувак»), *chingar / chingada* (Мексика — очень грубо).
+
+### Мягкие замены (эвфемизмы)
+
+Их часто слышно, они безопасны:
+
+- вместо *hostia*: *¡ostras!* — ух ты! / *¡hombre!* — ну надо же! / *¡madre mía!* — ну и ну!
+- вместо *joder*: *¡jolín!*, *¡jo!*, *¡jopé!* — блин! / *¡caray!*, *¡caramba!* — чёрт возьми!
+- вместо *coño*: *¡caramba!* — ну и ну! / *¡cáspita!* — ничего себе! / *¡narices!* — чёрт возьми! (*¿Qué narices haces?* — Что ты вообще делаешь?)
+- вместо *mierda*: *¡miércoles!* — чёрт! / *¡mecachis!* — вот незадача! / *¡rayos!* — гром и молния!
+- вместо *gilipollas*: *gilipuertas* [шутливо] — дурачок / *tonto* — глупый / *bobo* — простофиля.
 :::
