@@ -14,3 +14,5 @@ nav#toc ol { list-style: none; padding-left: 0.5em; }
 .warn { background: #fdeaea; border-left: 4px solid #c0392b; padding: 0 0.6em; margin: 0.8em 0; }
 
 h1 .subtitle { display: block; font-size: 0.7em; font-weight: normal; margin-top: 0.2em; }
+
+h1.part { font-size: 1.3em; text-align: center; margin: 1.5em 0 0.5em; }

@@ -41,7 +41,10 @@ tbody tr:nth-child(even) { background: #fbfcfd; }
 .table-of-contents { break-after: page; }
 .table-of-contents > p { font-size: 12pt; color: #287eb5; margin: 5mm 0 3mm; }
 .table-of-contents ul { list-style: none; padding: 0; margin: 0; }
-.table-of-contents li { margin: 0 0 3mm; break-inside: avoid; }
+.table-of-contents li { margin: 0 0 .3mm; break-inside: avoid; }
+.table-of-contents > ul > li { margin-top: 1.6mm; }
+.table-of-contents > ul > li > p { color: #287eb5; margin: 0 0 1mm; }
+.table-of-contents ul ul { padding-left: 6mm; margin: 0; }
 .table-of-contents a { color: #293747; text-decoration: none; }
 .table-of-contents a::after { content: leader('.') target-counter(attr(href), page); }
 
@@ -72,3 +75,6 @@ tbody tr:nth-child(even) { background: #fbfcfd; }
 .warn { background: #fdeaea; border-left: 2.5pt solid #c0392b; padding: 1pt 5pt; margin: 2mm 0; break-inside: avoid; }
 
 h1 .subtitle { display: block; margin-top: 1.5mm; font-size: 11pt; font-weight: 400; text-transform: none; letter-spacing: 0; color: #687786; }
+
+h1.part { font-size: 14pt; margin: 0 0 4mm; break-before: page; break-after: avoid; }
+h1.part + div { break-before: avoid; }
