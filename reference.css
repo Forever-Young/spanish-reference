@@ -70,3 +70,5 @@ tbody tr:nth-child(even) { background: #fbfcfd; }
 .colloquial-section { break-before: page; }
 .colloquial-section table { break-inside: auto; }
 .warn { background: #fdeaea; border-left: 2.5pt solid #c0392b; padding: 1pt 5pt; margin: 2mm 0; break-inside: avoid; }
+
+h1 .subtitle { display: block; margin-top: 1.5mm; font-size: 11pt; font-weight: 400; text-transform: none; letter-spacing: 0; color: #687786; }
