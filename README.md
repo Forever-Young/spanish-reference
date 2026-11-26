@@ -4,6 +4,10 @@
 
 Читать онлайн: **[spanish.f-y.name](https://spanish.f-y.name/)**
 
+Справочник регулярно обновляется. Текущая версия и дата последнего обновления:
+[![Версия](https://img.shields.io/github/v/release/Forever-Young/spanish-reference?label=версия)](https://github.com/Forever-Young/spanish-reference/releases/latest)
+[![Обновлено](https://img.shields.io/github/last-commit/Forever-Young/spanish-reference?label=обновлено)](https://github.com/Forever-Young/spanish-reference/commits/main)
+
 ## Готовые книги
 
 <p align="center">
