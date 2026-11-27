@@ -48,6 +48,7 @@ main { padding: 1rem 16px 4rem 2rem; min-width: 0; }
 #sidebar .toc-list a { display: block; padding: .22rem .5rem; border-radius: .3rem; color: var(--fg); }
 #sidebar [aria-current="page"] { background: var(--accent); color: #fff; }
 #sidebar.searching .toc-list { display: none; }
+.start.searching .start-toc, .start.searching .start-list { display: none; }
 .toc-scroll { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 2rem; position: relative; }
 #search { overflow-y: auto; }
 #sidebar:not(.searching) #search { flex: none; }

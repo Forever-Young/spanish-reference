@@ -107,7 +107,7 @@ def grouped_list(sections, current: int | None, cls: str) -> str:
 def sidebar(sections, current: int | None) -> str:
     return f"""<nav id="sidebar" aria-label="Оглавление">
 <div class="side-top">
-<a href="index.html"{' aria-current="page"' if current is None else ''}>Начало</a>
+<a href="./"{' aria-current="page"' if current is None else ''}>Начало</a>
 <a href="all.html">Одной страницей</a>
 </div>
 <div id="search"></div>
@@ -122,12 +122,13 @@ SIDE_JS = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
 (function () {
   var b = document.body;
   var btn = document.querySelector('.menu-btn');
-  btn.addEventListener('click', function () { b.classList.toggle('nav-open'); });
-  document.querySelector('.scrim').addEventListener('click', function () { b.classList.remove('nav-open'); });
+  if (btn) btn.addEventListener('click', function () { b.classList.toggle('nav-open'); });
+  var scrim = document.querySelector('.scrim');
+  if (scrim) scrim.addEventListener('click', function () { b.classList.remove('nav-open'); });
   var cur = document.querySelector('#sidebar [aria-current="page"]');
-  var side = document.getElementById('sidebar');
+  var side = document.getElementById('sidebar') || document.querySelector('.start');
   var sc = document.querySelector('.toc-scroll');
-  if (cur && cur.closest('.toc-list')) sc.scrollTop = Math.max(0, cur.offsetTop - sc.clientHeight / 3);
+  if (sc && cur && cur.closest('.toc-list')) sc.scrollTop = Math.max(0, cur.offsetTop - sc.clientHeight / 3);
   if (window.PagefindUI) {
     new PagefindUI({ element: '#search', mergeIndex: [{ bundlePath: new URL('pagefind-es/', document.baseURI).pathname, language: 'es' }], showImages: false, showSubResults: true, resetStyles: false,
       translations: { placeholder: 'Поиск', clear_search: 'Очистить', load_more: 'Ещё результаты',
@@ -159,7 +160,7 @@ def section_page(sections, idx: int, fragment: str) -> str:
 <div class="layout">
 {sidebar(sections, n)}
 <main data-pagefind-body>
-<p class="crumbs"><a href="index.html">{SHORT_TITLE}</a> · {html.escape(part)}</p>
+<p class="crumbs"><a href="./">{SHORT_TITLE}</a> · {html.escape(part)}</p>
 {fragment}
 <nav class="pager" aria-label="Соседние разделы">{prev_link}{next_link}</nav>
 </main>
@@ -216,15 +217,17 @@ def main() -> None:
 <div class="start">
 <h1>{SHORT_TITLE}<span class="subtitle">Грамматика и живая речь</span></h1>
 {header}
+<div id="search"></div>
 <h2 class="start-toc">Разделы</h2>
 {toc}
-</div>"""
+</div>
+{SIDE_JS}"""
     (OUT / "index.html").write_text(document(SITE_TITLE, body, "start-page"), encoding="utf-8")
 
     # everything on one page
     whole = pandoc(text, lua=True)
     body = f"""{THEME}
-<p class="crumbs noprint"><a href="index.html">← На главную</a></p>
+<p class="crumbs noprint"><a href="./">← На главную</a></p>
 {whole}"""
     (OUT / "all.html").write_text(
         document(f"{SITE_TITLE} (одной страницей)", body, "all-page"), encoding="utf-8")
