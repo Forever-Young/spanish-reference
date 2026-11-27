@@ -92,8 +92,16 @@ main h2:first-of-type { margin-top: .6rem; }
 
 /* Search box in the sidebar */
 #search .pagefind-ui__form { width: 100%; }
+#search .pagefind-ui__form { position: relative; }
+#search .pagefind-ui__search-input:focus { outline: 0; border-color: var(--accent); }
+#search .pagefind-ui__search-input { padding-right: 2rem !important; }
+#search .pagefind-ui__search-clear { position: absolute; top: .25rem; right: .3rem; width: 1.7rem; height: 1.7rem; padding: 0 !important; font-size: 0 !important; line-height: 1; text-decoration: none !important; border-radius: 50%; }
+#search .pagefind-ui__search-clear::before { content: "\00d7"; font-size: 1.4rem; line-height: 1.7rem; color: var(--muted); }
+#search .pagefind-ui__search-clear:hover::before, #search .pagefind-ui__search-clear:focus-visible::before { color: var(--fg); }
+.all-search { position: sticky; top: 0; z-index: 5; background: var(--bg); padding-top: .3rem; }
+.all-search #search { max-height: 60vh; margin-bottom: .4rem; }
 #search .pagefind-ui__search-input { width: 100%; box-sizing: border-box; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: .4rem; padding: .35rem .6rem; }
-#search .pagefind-ui__search-clear { font: inherit; font-size: .8rem; color: var(--fg); background: transparent; border: 0; padding: .3rem 0; cursor: pointer; text-decoration: underline; }
+#search .pagefind-ui__search-clear { font: inherit; background: transparent; border: 0; cursor: pointer; }
 #search .pagefind-ui__results { list-style: none; padding: 0; margin: 0; }
 #search .pagefind-ui__result { margin: 0 0 .9rem; padding: 0 0 .6rem; border-bottom: 1px solid var(--line); }
 #search .pagefind-ui__result-title { margin: 0 0 .2rem; font-size: .92rem; }

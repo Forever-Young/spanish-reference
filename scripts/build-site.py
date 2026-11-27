@@ -117,7 +117,7 @@ def sidebar(sections, current: int | None) -> str:
 </nav>"""
 
 
-SIDE_JS = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
+SIDE_JS_TEMPLATE = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
 <script>
 (function () {
   var b = document.body;
@@ -130,19 +130,32 @@ SIDE_JS = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
   var sc = document.querySelector('.toc-scroll');
   if (sc && cur && cur.closest('.toc-list')) sc.scrollTop = Math.max(0, cur.offsetTop - sc.clientHeight / 3);
   if (window.PagefindUI) {
-    new PagefindUI({ element: '#search', mergeIndex: [{ bundlePath: new URL('pagefind-es/', document.baseURI).pathname, language: 'es' }], showImages: false, showSubResults: true, resetStyles: false,
+    new PagefindUI({ element: '#search', @PROCESS@ mergeIndex: [{ bundlePath: new URL('pagefind-es/', document.baseURI).pathname, language: 'es' }], showImages: false, showSubResults: true, resetStyles: false,
       translations: { placeholder: 'Поиск', clear_search: 'Очистить', load_more: 'Ещё результаты',
         search_label: 'Поиск по справочнику', filters_label: 'Фильтры', zero_results: 'Ничего не найдено: [SEARCH_TERM]',
         many_results: '[COUNT] результатов: [SEARCH_TERM]', one_result: '[COUNT] результат: [SEARCH_TERM]',
         alt_search: 'Ничего не найдено по [SEARCH_TERM]. Показаны результаты по [DIFFERENT_TERM]',
         search_suggestion: 'Ничего не найдено по [SEARCH_TERM]. Попробуйте:', searching: 'Ищу [SEARCH_TERM]…' } });
     var inp = document.querySelector('#search input');
-    if (inp) inp.addEventListener('input', function () { side.classList.toggle('searching', inp.value.trim() !== ''); });
+    if (inp && side) inp.addEventListener('input', function () { side.classList.toggle('searching', inp.value.trim() !== ''); });
   } else {
     var s = document.getElementById('search'); if (s) s.remove();
   }
 })();
 </script>"""
+
+
+SIDE_JS = SIDE_JS_TEMPLATE.replace("@PROCESS@ ", "")
+
+
+def all_page_js(page_ids: dict[str, str]) -> str:
+    """Search on all.html: results jump inside this page instead of to section pages."""
+    import json
+    proc = ("processResult: function (r) { var m = %s; "
+            "function fix(u) { var f = u.split('#'), p = f[0].split('/').pop(); "
+            "return 'all.html#' + (f[1] || m[p] || ''); } "
+            "r.url = fix(r.url); (r.sub_results || []).forEach(function (x) { x.url = fix(x.url); }); return r; }," % json.dumps(page_ids, ensure_ascii=False))
+    return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc)
 
 
 def section_page(sections, idx: int, fragment: str) -> str:
@@ -226,9 +239,20 @@ def main() -> None:
 
     # everything on one page
     whole = pandoc(text, lua=True)
+    page_ids = {}
+    for (_, n, _, _), frag in zip(sections, fragments):
+        m = re.search(r'<h2[^>]*\bid="([^"]+)"', frag)
+        if m:
+            page_ids[page_name(n)] = m.group(1)
+        else:  # heading without id (wrapped section): add one to the whole page
+            whole, k = re.subn(rf"<h2>({n}\. )", rf'<h2 id="sec-{n}">\1', whole, count=1)
+            if k:
+                page_ids[page_name(n)] = f"sec-{n}"
     body = f"""{THEME}
 <p class="crumbs noprint"><a href="./">← На главную</a></p>
-{whole}"""
+<div class="noprint all-search"><div id="search"></div></div>
+{whole}
+{all_page_js(page_ids)}"""
     (OUT / "all.html").write_text(
         document(f"{SITE_TITLE} (одной страницей)", body, "all-page"), encoding="utf-8")
     print(f"Created {len(sections)} section pages, index.html and all.html in {OUT}")
