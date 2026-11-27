@@ -2047,6 +2047,7 @@
 | **acordarse de / recordar** | *Me acuerdo de tu nombre = Recuerdo tu nombre.* — Помню твоё имя. *Recuérdame que compre leche.* — Напомни мне купить молоко. |
 | **olvidarse de / olvidar** | *Me olvidé de la cita = Olvidé la cita.* — Забыл о встрече. Также *se me olvidó la cita* — встреча вылетела из головы. |
 | **darse cuenta de** | *Me di cuenta de que faltaba una página.* — Я заметил, что не хватает страницы. |
+| **dar cuenta de** — не путать с *darse cuenta de* | Книжное: отчитаться, сообщить о чём-то, засвидетельствовать: *El informe da cuenta de los resultados del año.* — В отчёте приводятся итоги года. *Dio cuenta de lo ocurrido a la dirección.* — Он / она доложил(а) руководству о случившемся. Без *se* и без смысла «осознать»: *darse cuenta de* — «заметить, понять» (*Me di cuenta del error.* — Я заметил ошибку). Также *dar cuenta de algo* [разг.] — расправиться с едой: *Dimos cuenta de la paella en diez minutos.* — Мы за десять минут умяли паэлью. |
 | **insistir en** | *Insiste en pagar él.* — Настаивает, чтобы заплатить самому. *Insisto en que vengas* — настаиваю на твоём приходе. |
 | **confiar en / contar con** | *Confío en ti; cuento contigo.* — Доверяю тебе; рассчитываю на тебя. |
 | **tratar de / tratarse de** | *Trato de entenderlo.* — Пытаюсь понять. *Se trata de un error.* — Речь об ошибке. |
