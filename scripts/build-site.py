@@ -137,7 +137,12 @@ SIDE_JS_TEMPLATE = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></s
         alt_search: 'Ничего не найдено по [SEARCH_TERM]. Показаны результаты по [DIFFERENT_TERM]',
         search_suggestion: 'Ничего не найдено по [SEARCH_TERM]. Попробуйте:', searching: 'Ищу [SEARCH_TERM]…' } });
     var inp = document.querySelector('#search input');
-    if (inp && side) inp.addEventListener('input', function () { side.classList.toggle('searching', inp.value.trim() !== ''); });
+    if (inp && side) {
+      var upd = function () { side.classList.toggle('searching', inp.value.trim() !== ''); };
+      inp.addEventListener('input', upd);
+      /* the clear button empties the field without an input event */
+      document.getElementById('search').addEventListener('click', function () { setTimeout(upd, 0); });
+    }
   } else {
     var s = document.getElementById('search'); if (s) s.remove();
   }
