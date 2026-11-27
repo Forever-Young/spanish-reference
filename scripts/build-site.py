@@ -164,15 +164,21 @@ def all_page_js(page_ids: dict[str, str]) -> str:
 (function () {
   var box = document.querySelector('.all-search');
   if (!box) return;
-  /* a click on the page (or on a result) hides the results; the text stays, and a click in the field brings them back */
+  var pane = box.querySelector('#search'), saved = 0;
+  /* a click on the page (or on a result) hides the results; the text stays, and a click in the field brings them back where they were scrolled to */
+  function hide() { if (!box.classList.contains('collapsed')) { saved = pane.scrollTop; box.classList.add('collapsed'); } }
+  function show(keep) {
+    if (!box.classList.contains('collapsed')) return;
+    box.classList.remove('collapsed');
+    pane.scrollTop = keep ? saved : 0;
+  }
   document.addEventListener('click', function (e) {
     var link = e.target.closest && e.target.closest('.pagefind-ui__result-link');
-    var inside = box.contains(e.target);
-    if (!inside || link) box.classList.add('collapsed');
-    else if (e.target.closest('.pagefind-ui__search-clear')) box.classList.remove('collapsed');
+    if (!box.contains(e.target) || link) hide();
+    else if (e.target.closest('.pagefind-ui__search-clear')) show(false);
   });
-  box.addEventListener('focusin', function (e) { if (e.target.matches('input')) box.classList.remove('collapsed'); });
-  box.addEventListener('input', function () { box.classList.remove('collapsed'); });
+  box.addEventListener('focusin', function (e) { if (e.target.matches('input')) show(true); });
+  box.addEventListener('input', function () { show(false); });
 })();
 </script>"""
     return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc) + "\n" + collapse
