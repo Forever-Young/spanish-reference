@@ -160,7 +160,22 @@ def all_page_js(page_ids: dict[str, str]) -> str:
             "function fix(u) { var f = u.split('#'), p = f[0].split('/').pop(); "
             "return 'all.html#' + (f[1] || m[p] || ''); } "
             "r.url = fix(r.url); (r.sub_results || []).forEach(function (x) { x.url = fix(x.url); }); return r; }," % json.dumps(page_ids, ensure_ascii=False))
-    return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc)
+    collapse = """<script>
+(function () {
+  var box = document.querySelector('.all-search');
+  if (!box) return;
+  /* a click on the page (or on a result) hides the results; the text stays, and a click in the field brings them back */
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest && e.target.closest('.pagefind-ui__result-link');
+    var inside = box.contains(e.target);
+    if (!inside || link) box.classList.add('collapsed');
+    else if (e.target.closest('.pagefind-ui__search-clear')) box.classList.remove('collapsed');
+  });
+  box.addEventListener('focusin', function (e) { if (e.target.matches('input')) box.classList.remove('collapsed'); });
+  box.addEventListener('input', function () { box.classList.remove('collapsed'); });
+})();
+</script>"""
+    return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc) + "\n" + collapse
 
 
 def section_page(sections, idx: int, fragment: str) -> str:
