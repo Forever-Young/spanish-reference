@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Build the multi-page site: start page, one page per section, and all.html."""
+import hashlib
 import html
 import os
 import re
@@ -14,6 +15,8 @@ BUILT_DATE = sys.argv[3]
 ES_DIR = Path(sys.argv[4]).resolve() if len(sys.argv) > 4 else None
 SITE_TITLE = "Справочник по испанскому языку: грамматика и живая речь"
 SHORT_TITLE = "Справочник по испанскому языку"
+# Version of everything that affects looks and the index; names assets so a fresh page never mixes versions.
+ASSET_V = hashlib.sha1(b"".join((ROOT / f).read_bytes() for f in ("site.css", "reference.md", "scripts/build-site.py"))).hexdigest()[:8]
 
 
 def pandoc(md: str, lua: bool = False) -> str:
@@ -79,7 +82,7 @@ def document(title: str, body: str, css_class: str = "") -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
-<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="site.css?v={ASSET_V}">
 {HEAD}
 </head>
 <body class="{css_class}">
@@ -117,7 +120,7 @@ def sidebar(sections, current: int | None) -> str:
 </nav>"""
 
 
-SIDE_JS_TEMPLATE = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></script>
+SIDE_JS_TEMPLATE = """<script src="pagefind-@V@/pagefind-ui.js" onerror="void 0"></script>
 <script>
 (function () {
   var b = document.body;
@@ -130,7 +133,7 @@ SIDE_JS_TEMPLATE = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></s
   var sc = document.querySelector('.toc-scroll');
   if (sc && cur && cur.closest('.toc-list')) sc.scrollTop = Math.max(0, cur.offsetTop - sc.clientHeight / 3);
   if (window.PagefindUI) {
-    new PagefindUI({ element: '#search', @PROCESS@ mergeIndex: [{ bundlePath: new URL('pagefind-es/', document.baseURI).pathname, language: 'es' }], showImages: false, showSubResults: true, resetStyles: false,
+    new PagefindUI({ element: '#search', @PROCESS@ mergeIndex: [{ bundlePath: new URL('pagefind-es-@V@/', document.baseURI).pathname, language: 'es' }], showImages: false, showSubResults: true, resetStyles: false,
       translations: { placeholder: 'Поиск', clear_search: 'Очистить', load_more: 'Ещё результаты',
         search_label: 'Поиск по справочнику', filters_label: 'Фильтры', zero_results: 'Ничего не найдено: [SEARCH_TERM]',
         many_results: '[COUNT] результатов: [SEARCH_TERM]', one_result: '[COUNT] результат: [SEARCH_TERM]',
@@ -150,7 +153,7 @@ SIDE_JS_TEMPLATE = """<script src="pagefind/pagefind-ui.js" onerror="void 0"></s
 </script>"""
 
 
-SIDE_JS = SIDE_JS_TEMPLATE.replace("@PROCESS@ ", "")
+SIDE_JS = SIDE_JS_TEMPLATE.replace("@PROCESS@ ", "").replace("@V@", ASSET_V)
 
 
 def all_page_js(page_ids: dict[str, str]) -> str:
@@ -181,7 +184,7 @@ def all_page_js(page_ids: dict[str, str]) -> str:
   box.addEventListener('input', function () { show(false); });
 })();
 </script>"""
-    return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc) + "\n" + collapse
+    return SIDE_JS_TEMPLATE.replace("@PROCESS@", proc).replace("@V@", ASSET_V) + "\n" + collapse
 
 
 def section_page(sections, idx: int, fragment: str) -> str:
@@ -281,6 +284,7 @@ def main() -> None:
 {all_page_js(page_ids)}"""
     (OUT / "all.html").write_text(
         document(f"{SITE_TITLE} (одной страницей)", body, "all-page"), encoding="utf-8")
+    (OUT / ".asset-v").write_text(ASSET_V)
     print(f"Created {len(sections)} section pages, index.html and all.html in {OUT}")
 
 
